@@ -1,0 +1,55 @@
+/*  
+  Helix CSS
+  Module: Transition
+*/
+:root {
+  --duration-fast: 64ms;
+  --duration-normal: 256ms;
+  --duration-slow: 384ms;
+  --ease-linear: linear;
+  --ease-in: cubic-bezier(0.47, 0, 0.75, 0.71);
+  --ease-out: cubic-bezier(0.39, 0.57, 0.56, 1);
+  --ease-in-out: cubic-bezier(0.44, 0.05, 0.55, 0.95);
+}
+
+.duration-fast {
+  transition-duration: var(--duration-fast);
+}
+.duration-normal {
+  transition-duration: var(--duration-normal);
+}
+.duration-slow {
+  transition-duration: var(--duration-slow);
+}
+
+.property-none {
+  transition-property: none;
+}
+.property-all {
+  transition-property: all;
+}
+.property-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+}
+.property-opacity {
+  transition-property: opacity;
+}
+.property-shadow {
+  transition-property: box-shadow;
+}
+.property-transform {
+  transition-property: transform;
+}
+
+.ease-linear {
+  transition-timing-function: linear;
+}
+.ease-in {
+  transition-timing-function: var(--ease-in);
+}
+.ease-in-out {
+  transition-timing-function: var(--ease-in-out);
+}
+.ease-out {
+  transition-timing-function: var(--ease-out);
+}

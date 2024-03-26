@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/*  
+  Helix CSS
+  Module: Form
+*/
+:root {
+  --form-highlight: 220, 90%, 60%;
+  --form-border-color: 0, 0%, 40%;
+  --form-border-width: 1px;
+  --form-outline-width: 2px;
+}
+
+:where(button, input, textarea, select, a, a.button),
+:where(input[type=file])::file-selector-button {
+  padding-block: 0.5rem;
+  padding-inline: 0.5rem;
+  border-style: solid;
+  border-width: var(--form-border-width);
+  border-color: hsl(var(--form-border-color));
+  border-radius: 0.25rem;
+  outline-color: transparent;
+  outline-width: var(--form-border-width);
+  outline-style: solid;
+  outline-offset: -0.0625rem;
+  line-height: 1;
+}
+
+:where(input[type=checkbox], input[type=radio]) {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-color: hsl(var(--form-border-color));
+}
+:where(input[type=checkbox], input[type=radio]):focus {
+  border-color: hsl(var(--form-highlight));
+  outline-width: var(--form-outline-width);
+  outline-color: hsla(var(--form-highlight), 0.32);
+  outline-offset: 0px;
+}
+:where(input[type=checkbox], input[type=radio]):checked {
+  border-color: hsl(var(--form-highlight));
+}
+
+:where(input[type=text],
+input[type=password],
+input[type=email],
+input[type=tel],
+input[type=search],
+input[type=number],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+select,
+textarea) {
+  cursor: text;
+}
+:where(input[type=text],
+input[type=password],
+input[type=email],
+input[type=tel],
+input[type=search],
+input[type=number],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+select,
+textarea):where(:not(:active)):focus-visible {
+  border-color: hsl(var(--form-highlight));
+  outline-width: var(--form-outline-width);
+  outline-color: hsla(var(--form-highlight), 0.32);
+  outline-offset: 0px;
+}
+
+:where(input[type=file]) {
+  padding: var(--form-outline-width);
+  border: none;
+  cursor: pointer;
+}
+
+:where(button,
+input[type=button],
+input[type=submit],
+input[type=reset],
+a.button),
+:where(input[type=file])::file-selector-button {
+  cursor: pointer;
+  line-height: 1.13;
+}
+:where(button,
+input[type=button],
+input[type=submit],
+input[type=reset],
+a.button):where(:not(:active)):hover,
+:where(input[type=file])::file-selector-button:where(:not(:active)):hover {
+  border-color: hsl(var(--form-highlight));
+  outline-width: var(--form-outline-width);
+  outline-color: hsla(var(--form-highlight), 0.32);
+  outline-offset: 0px;
+}
+
+:where(input[type=checkbox]) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+:where(input[type=checkbox]):checked {
+  background-color: hsl(var(--form-highlight));
+}
+:where(input[type=checkbox]):checked::after {
+  content: "✓";
+  color: white;
+  font-size: 1em;
+  position: relative;
+}
+
+:where(input[type=radio]) {
+  border-radius: 50%;
+  position: relative;
+}
+:where(input[type=radio]):checked::after {
+  content: "";
+  position: absolute;
+  inset: 0.125rem;
+  border-radius: 50%;
+  background-color: hsl(var(--form-highlight));
+}

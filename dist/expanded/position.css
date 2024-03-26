@@ -1,0 +1,362 @@
+/*  
+  Helix CSS
+  Module: Position
+*/
+.ps-static {
+  position: static;
+}
+.ps-relative {
+  position: relative;
+}
+.ps-absolute {
+  position: absolute;
+}
+.ps-fixed {
+  position: fixed;
+}
+.ps-sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0;
+}
+.top-50 {
+  top: 50%;
+}
+.top-100 {
+  top: 100%;
+}
+
+.botton-0 {
+  bottom: 0;
+}
+.botton-50 {
+  bottom: 50%;
+}
+.botton-100 {
+  bottom: 100%;
+}
+
+.left-0 {
+  left: 0;
+}
+.left-50 {
+  left: 50%;
+}
+.left-100 {
+  left: 100%;
+}
+
+.right-0 {
+  right: 0;
+}
+.right-50 {
+  right: 50%;
+}
+.right-100 {
+  right: 100%;
+}
+
+.inset-auto {
+  inset: auto;
+}
+.inset-0 {
+  inset: 0;
+}
+
+@media (max-width: 96rem) {
+  .\32 xl\:ps-static {
+    position: static;
+  }
+  .\32 xl\:ps-relative {
+    position: relative;
+  }
+  .\32 xl\:ps-absolute {
+    position: absolute;
+  }
+  .\32 xl\:ps-fixed {
+    position: fixed;
+  }
+  .\32 xl\:ps-sticky {
+    position: sticky;
+  }
+  .\32 xl\:top-0 {
+    top: 0;
+  }
+  .\32 xl\:top-50 {
+    top: 50%;
+  }
+  .\32 xl\:top-100 {
+    top: 100%;
+  }
+  .\32 xl\:bottom-0 {
+    bottom: 0;
+  }
+  .\32 xl\:bottom-50 {
+    bottom: 50%;
+  }
+  .\32 xl\:bottom-100 {
+    bottom: 100%;
+  }
+  .\32 xl\:left-0 {
+    left: 0;
+  }
+  .\32 xl\:left-50 {
+    left: 50%;
+  }
+  .\32 xl\:left-100 {
+    left: 100%;
+  }
+  .\32 xl\:right-0 {
+    right: 0;
+  }
+  .\32 xl\:right-50 {
+    right: 50%;
+  }
+  .\32 xl\:right-100 {
+    right: 100%;
+  }
+  .\32 xl\:inset-auto {
+    inset: auto;
+  }
+  .\32 xl\:inset-0 {
+    inset: 0;
+  }
+}
+@media (max-width: 80rem) {
+  .xl\:ps-static {
+    position: static;
+  }
+  .xl\:ps-relative {
+    position: relative;
+  }
+  .xl\:ps-absolute {
+    position: absolute;
+  }
+  .xl\:ps-fixed {
+    position: fixed;
+  }
+  .xl\:ps-sticky {
+    position: sticky;
+  }
+  .xl\:top-0 {
+    top: 0;
+  }
+  .xl\:top-50 {
+    top: 50%;
+  }
+  .xl\:top-100 {
+    top: 100%;
+  }
+  .xl\:bottom-0 {
+    bottom: 0;
+  }
+  .xl\:bottom-50 {
+    bottom: 50%;
+  }
+  .xl\:bottom-100 {
+    bottom: 100%;
+  }
+  .xl\:left-0 {
+    left: 0;
+  }
+  .xl\:left-50 {
+    left: 50%;
+  }
+  .xl\:left-100 {
+    left: 100%;
+  }
+  .xl\:right-0 {
+    right: 0;
+  }
+  .xl\:right-50 {
+    right: 50%;
+  }
+  .xl\:right-100 {
+    right: 100%;
+  }
+  .xl\:inset-auto {
+    inset: auto;
+  }
+  .xl\:inset-0 {
+    inset: 0;
+  }
+}
+@media (max-width: 64rem) {
+  .lg\:ps-static {
+    position: static;
+  }
+  .lg\:ps-relative {
+    position: relative;
+  }
+  .lg\:ps-absolute {
+    position: absolute;
+  }
+  .lg\:ps-fixed {
+    position: fixed;
+  }
+  .lg\:ps-sticky {
+    position: sticky;
+  }
+  .lg\:top-0 {
+    top: 0;
+  }
+  .lg\:top-50 {
+    top: 50%;
+  }
+  .lg\:top-100 {
+    top: 100%;
+  }
+  .lg\:bottom-0 {
+    bottom: 0;
+  }
+  .lg\:bottom-50 {
+    bottom: 50%;
+  }
+  .lg\:bottom-100 {
+    bottom: 100%;
+  }
+  .lg\:left-0 {
+    left: 0;
+  }
+  .lg\:left-50 {
+    left: 50%;
+  }
+  .lg\:left-100 {
+    left: 100%;
+  }
+  .lg\:right-0 {
+    right: 0;
+  }
+  .lg\:right-50 {
+    right: 50%;
+  }
+  .lg\:right-100 {
+    right: 100%;
+  }
+  .lg\:inset-auto {
+    inset: auto;
+  }
+  .lg\:inset-0 {
+    inset: 0;
+  }
+}
+@media (max-width: 48rem) {
+  .md\:ps-static {
+    position: static;
+  }
+  .md\:ps-relative {
+    position: relative;
+  }
+  .md\:ps-absolute {
+    position: absolute;
+  }
+  .md\:ps-fixed {
+    position: fixed;
+  }
+  .md\:ps-sticky {
+    position: sticky;
+  }
+  .md\:top-0 {
+    top: 0;
+  }
+  .md\:top-50 {
+    top: 50%;
+  }
+  .md\:top-100 {
+    top: 100%;
+  }
+  .md\:bottom-0 {
+    bottom: 0;
+  }
+  .md\:bottom-50 {
+    bottom: 50%;
+  }
+  .md\:bottom-100 {
+    bottom: 100%;
+  }
+  .md\:left-0 {
+    left: 0;
+  }
+  .md\:left-50 {
+    left: 50%;
+  }
+  .md\:left-100 {
+    left: 100%;
+  }
+  .md\:right-0 {
+    right: 0;
+  }
+  .md\:right-50 {
+    right: 50%;
+  }
+  .md\:right-100 {
+    right: 100%;
+  }
+  .md\:inset-auto {
+    inset: auto;
+  }
+  .md\:inset-0 {
+    inset: 0;
+  }
+}
+@media (max-width: 40rem) {
+  .sm\:ps-static {
+    position: static;
+  }
+  .sm\:ps-relative {
+    position: relative;
+  }
+  .sm\:ps-absolute {
+    position: absolute;
+  }
+  .sm\:ps-fixed {
+    position: fixed;
+  }
+  .sm\:ps-sticky {
+    position: sticky;
+  }
+  .sm\:top-0 {
+    top: 0;
+  }
+  .sm\:top-50 {
+    top: 50%;
+  }
+  .sm\:top-100 {
+    top: 100%;
+  }
+  .sm\:bottom-0 {
+    bottom: 0;
+  }
+  .sm\:bottom-50 {
+    bottom: 50%;
+  }
+  .sm\:bottom-100 {
+    bottom: 100%;
+  }
+  .sm\:left-0 {
+    left: 0;
+  }
+  .sm\:left-50 {
+    left: 50%;
+  }
+  .sm\:left-100 {
+    left: 100%;
+  }
+  .sm\:right-0 {
+    right: 0;
+  }
+  .sm\:right-50 {
+    right: 50%;
+  }
+  .sm\:right-100 {
+    right: 100%;
+  }
+  .sm\:inset-auto {
+    inset: auto;
+  }
+  .sm\:inset-0 {
+    inset: 0;
+  }
+}

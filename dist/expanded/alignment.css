@@ -1,0 +1,214 @@
+/*  
+  Helix CSS
+  Module: Alignment
+*/
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-stretch {
+  align-items: stretch;
+}
+.align-baseline {
+  align-items: baseline;
+}
+
+@media (max-width: 96rem) {
+  .\32 xl\:justify-start {
+    justify-content: flex-start;
+  }
+  .\32 xl\:justify-center {
+    justify-content: center;
+  }
+  .\32 xl\:justify-end {
+    justify-content: flex-end;
+  }
+  .\32 xl\:justify-between {
+    justify-content: space-between;
+  }
+  .\32 xl\:justify-around {
+    justify-content: space-around;
+  }
+  .\32 xl\:justify-evenly {
+    justify-content: space-evenly;
+  }
+  .\32 xl\:align-start {
+    align-items: flex-start;
+  }
+  .\32 xl\:align-center {
+    align-items: center;
+  }
+  .\32 xl\:align-end {
+    align-items: flex-end;
+  }
+  .\32 xl\:align-stretch {
+    align-items: stretch;
+  }
+  .\32 xl\:align-baseline {
+    align-items: baseline;
+  }
+}
+@media (max-width: 80rem) {
+  .xl\:justify-start {
+    justify-content: flex-start;
+  }
+  .xl\:justify-center {
+    justify-content: center;
+  }
+  .xl\:justify-end {
+    justify-content: flex-end;
+  }
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+  .xl\:justify-around {
+    justify-content: space-around;
+  }
+  .xl\:justify-evenly {
+    justify-content: space-evenly;
+  }
+  .xl\:align-start {
+    align-items: flex-start;
+  }
+  .xl\:align-center {
+    align-items: center;
+  }
+  .xl\:align-end {
+    align-items: flex-end;
+  }
+  .xl\:align-stretch {
+    align-items: stretch;
+  }
+  .xl\:align-baseline {
+    align-items: baseline;
+  }
+}
+@media (max-width: 64rem) {
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+  .lg\:justify-center {
+    justify-content: center;
+  }
+  .lg\:justify-end {
+    justify-content: flex-end;
+  }
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+  .lg\:justify-around {
+    justify-content: space-around;
+  }
+  .lg\:justify-evenly {
+    justify-content: space-evenly;
+  }
+  .lg\:align-start {
+    align-items: flex-start;
+  }
+  .lg\:align-center {
+    align-items: center;
+  }
+  .lg\:align-end {
+    align-items: flex-end;
+  }
+  .lg\:align-stretch {
+    align-items: stretch;
+  }
+  .lg\:align-baseline {
+    align-items: baseline;
+  }
+}
+@media (max-width: 48rem) {
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+  .md\:justify-center {
+    justify-content: center;
+  }
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+  .md\:justify-around {
+    justify-content: space-around;
+  }
+  .md\:justify-evenly {
+    justify-content: space-evenly;
+  }
+  .md\:align-start {
+    align-items: flex-start;
+  }
+  .md\:align-center {
+    align-items: center;
+  }
+  .md\:align-end {
+    align-items: flex-end;
+  }
+  .md\:align-stretch {
+    align-items: stretch;
+  }
+  .md\:align-baseline {
+    align-items: baseline;
+  }
+}
+@media (max-width: 40rem) {
+  .sm\:justify-start {
+    justify-content: flex-start;
+  }
+  .sm\:justify-center {
+    justify-content: center;
+  }
+  .sm\:justify-end {
+    justify-content: flex-end;
+  }
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+  .sm\:justify-around {
+    justify-content: space-around;
+  }
+  .sm\:justify-evenly {
+    justify-content: space-evenly;
+  }
+  .sm\:align-start {
+    align-items: flex-start;
+  }
+  .sm\:align-center {
+    align-items: center;
+  }
+  .sm\:align-end {
+    align-items: flex-end;
+  }
+  .sm\:align-stretch {
+    align-items: stretch;
+  }
+  .sm\:align-baseline {
+    align-items: baseline;
+  }
+}

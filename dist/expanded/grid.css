@@ -1,0 +1,323 @@
+/*  
+  Helix CSS
+  Module: Grid
+*/
+.ds-grid {
+  display: grid;
+}
+.ds-inline-grid {
+  display: inline-grid;
+}
+
+.grid-flow-row {
+  grid-auto-flow: row;
+}
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+.grid-flow-dense {
+  grid-auto-flow: dense;
+}
+
+.grid-tpl-col-01 {
+  grid-template-columns: repeat(1, 1fr);
+}
+.grid-tpl-col-02 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-tpl-col-03 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-tpl-col-04 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-tpl-col-05 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-tpl-col-06 {
+  grid-template-columns: repeat(6, 1fr);
+}
+.grid-tpl-row-01 {
+  grid-template-rows: repeat(1, 1fr);
+}
+.grid-tpl-row-02 {
+  grid-template-rows: repeat(2, 1fr);
+}
+.grid-tpl-row-03 {
+  grid-template-rows: repeat(3, 1fr);
+}
+.grid-tpl-row-04 {
+  grid-template-rows: repeat(4, 1fr);
+}
+.grid-tpl-row-05 {
+  grid-template-rows: repeat(5, 1fr);
+}
+.grid-tpl-row-06 {
+  grid-template-rows: repeat(6, 1fr);
+}
+
+@media (max-width: 96rem) {
+  .\32 xl\:ds-grid {
+    display: grid;
+  }
+  .\32 xl\:ds-inline-grid {
+    display: inline-grid;
+  }
+  .\32 xl\:grid-flow-row {
+    grid-auto-flow: row;
+  }
+  .\32 xl\:grid-flow-col {
+    grid-auto-flow: column;
+  }
+  .\32 xl\:grid-flow-dense {
+    grid-auto-flow: dense;
+  }
+  .\32 xl\:grid-tpl-col-01 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .\32 xl\:grid-tpl-col-02 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .\32 xl\:grid-tpl-col-03 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .\32 xl\:grid-tpl-col-04 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .\32 xl\:grid-tpl-col-05 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .\32 xl\:grid-tpl-col-06 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .\32 xl\:grid-tpl-row-01 {
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .\32 xl\:grid-tpl-row-02 {
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .\32 xl\:grid-tpl-row-03 {
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .\32 xl\:grid-tpl-row-04 {
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .\32 xl\:grid-tpl-row-05 {
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .\32 xl\:grid-tpl-row-06 {
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+@media (max-width: 80rem) {
+  .xl\:ds-grid {
+    display: grid;
+  }
+  .xl\:ds-inline-grid {
+    display: inline-grid;
+  }
+  .xl\:grid-flow-row {
+    grid-auto-flow: row;
+  }
+  .xl\:grid-flow-col {
+    grid-auto-flow: column;
+  }
+  .xl\:grid-flow-dense {
+    grid-auto-flow: dense;
+  }
+  .xl\:grid-tpl-col-01 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .xl\:grid-tpl-col-02 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .xl\:grid-tpl-col-03 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .xl\:grid-tpl-col-04 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .xl\:grid-tpl-col-05 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .xl\:grid-tpl-col-06 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .xl\:grid-tpl-row-01 {
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .xl\:grid-tpl-row-02 {
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .xl\:grid-tpl-row-03 {
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .xl\:grid-tpl-row-04 {
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .xl\:grid-tpl-row-05 {
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .xl\:grid-tpl-row-06 {
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+@media (max-width: 64rem) {
+  .lg\:ds-grid {
+    display: grid;
+  }
+  .lg\:ds-inline-grid {
+    display: inline-grid;
+  }
+  .lg\:grid-flow-row {
+    grid-auto-flow: row;
+  }
+  .lg\:grid-flow-col {
+    grid-auto-flow: column;
+  }
+  .lg\:grid-flow-dense {
+    grid-auto-flow: dense;
+  }
+  .lg\:grid-tpl-col-01 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .lg\:grid-tpl-col-02 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .lg\:grid-tpl-col-03 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .lg\:grid-tpl-col-04 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .lg\:grid-tpl-col-05 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .lg\:grid-tpl-col-06 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .lg\:grid-tpl-row-01 {
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .lg\:grid-tpl-row-02 {
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .lg\:grid-tpl-row-03 {
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .lg\:grid-tpl-row-04 {
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .lg\:grid-tpl-row-05 {
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .lg\:grid-tpl-row-06 {
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+@media (max-width: 48rem) {
+  .md\:ds-grid {
+    display: grid;
+  }
+  .md\:ds-inline-grid {
+    display: inline-grid;
+  }
+  .md\:grid-flow-row {
+    grid-auto-flow: row;
+  }
+  .md\:grid-flow-col {
+    grid-auto-flow: column;
+  }
+  .md\:grid-flow-dense {
+    grid-auto-flow: dense;
+  }
+  .md\:grid-tpl-col-01 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .md\:grid-tpl-col-02 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .md\:grid-tpl-col-03 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .md\:grid-tpl-col-04 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .md\:grid-tpl-col-05 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .md\:grid-tpl-col-06 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .md\:grid-tpl-row-01 {
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .md\:grid-tpl-row-02 {
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .md\:grid-tpl-row-03 {
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .md\:grid-tpl-row-04 {
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .md\:grid-tpl-row-05 {
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .md\:grid-tpl-row-06 {
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+@media (max-width: 40rem) {
+  .sm\:ds-grid {
+    display: grid;
+  }
+  .sm\:ds-inline-grid {
+    display: inline-grid;
+  }
+  .sm\:grid-flow-row {
+    grid-auto-flow: row;
+  }
+  .sm\:grid-flow-col {
+    grid-auto-flow: column;
+  }
+  .sm\:grid-flow-dense {
+    grid-auto-flow: dense;
+  }
+  .sm\:grid-tpl-col-01 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sm\:grid-tpl-col-02 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sm\:grid-tpl-col-03 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .sm\:grid-tpl-col-04 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .sm\:grid-tpl-col-05 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .sm\:grid-tpl-col-06 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .sm\:grid-tpl-row-01 {
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .sm\:grid-tpl-row-02 {
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .sm\:grid-tpl-row-03 {
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .sm\:grid-tpl-row-04 {
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .sm\:grid-tpl-row-05 {
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .sm\:grid-tpl-row-06 {
+    grid-template-rows: repeat(6, 1fr);
+  }
+}

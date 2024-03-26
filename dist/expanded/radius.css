@@ -1,0 +1,189 @@
+/*  
+  Helix CSS
+  Module: Radius
+*/
+:root {
+  --radius-3xs: 0.25rem;
+  --radius-2xs: 0.375rem;
+  --radius-xs: 0.5rem;
+  --radius-sm: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 1.75rem;
+  --radius-3xl: 2rem;
+}
+
+.radius-3xs {
+  border-radius: var(--radius-3xs);
+}
+.radius-2xs {
+  border-radius: var(--radius-2xs);
+}
+.radius-xs {
+  border-radius: var(--radius-xs);
+}
+.radius-sm {
+  border-radius: var(--radius-sm);
+}
+.radius-md {
+  border-radius: var(--radius-md);
+}
+.radius-lg {
+  border-radius: var(--radius-lg);
+}
+.radius-xl {
+  border-radius: var(--radius-xl);
+}
+.radius-2xl {
+  border-radius: var(--radius-2xl);
+}
+.radius-3xl {
+  border-radius: var(--radius-3xl);
+}
+
+@media (max-width: 96rem) {
+  .\32 xl\:radius-3xs {
+    border-radius: var(--radius-3xs);
+  }
+  .\32 xl\:radius-2xs {
+    border-radius: var(--radius-2xs);
+  }
+  .\32 xl\:radius-xs {
+    border-radius: var(--radius-xs);
+  }
+  .\32 xl\:radius-sm {
+    border-radius: var(--radius-sm);
+  }
+  .\32 xl\:radius-md {
+    border-radius: var(--radius-md);
+  }
+  .\32 xl\:radius-lg {
+    border-radius: var(--radius-lg);
+  }
+  .\32 xl\:radius-xl {
+    border-radius: var(--radius-xl);
+  }
+  .\32 xl\:radius-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .\32 xl\:radius-3xl {
+    border-radius: var(--radius-3xl);
+  }
+}
+@media (max-width: 80rem) {
+  .xl\:radius-3xs {
+    border-radius: var(--radius-3xs);
+  }
+  .xl\:radius-2xs {
+    border-radius: var(--radius-2xs);
+  }
+  .xl\:radius-xs {
+    border-radius: var(--radius-xs);
+  }
+  .xl\:radius-sm {
+    border-radius: var(--radius-sm);
+  }
+  .xl\:radius-md {
+    border-radius: var(--radius-md);
+  }
+  .xl\:radius-lg {
+    border-radius: var(--radius-lg);
+  }
+  .xl\:radius-xl {
+    border-radius: var(--radius-xl);
+  }
+  .xl\:radius-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .xl\:radius-3xl {
+    border-radius: var(--radius-3xl);
+  }
+}
+@media (max-width: 64rem) {
+  .lg\:radius-3xs {
+    border-radius: var(--radius-3xs);
+  }
+  .lg\:radius-2xs {
+    border-radius: var(--radius-2xs);
+  }
+  .lg\:radius-xs {
+    border-radius: var(--radius-xs);
+  }
+  .lg\:radius-sm {
+    border-radius: var(--radius-sm);
+  }
+  .lg\:radius-md {
+    border-radius: var(--radius-md);
+  }
+  .lg\:radius-lg {
+    border-radius: var(--radius-lg);
+  }
+  .lg\:radius-xl {
+    border-radius: var(--radius-xl);
+  }
+  .lg\:radius-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .lg\:radius-3xl {
+    border-radius: var(--radius-3xl);
+  }
+}
+@media (max-width: 48rem) {
+  .md\:radius-3xs {
+    border-radius: var(--radius-3xs);
+  }
+  .md\:radius-2xs {
+    border-radius: var(--radius-2xs);
+  }
+  .md\:radius-xs {
+    border-radius: var(--radius-xs);
+  }
+  .md\:radius-sm {
+    border-radius: var(--radius-sm);
+  }
+  .md\:radius-md {
+    border-radius: var(--radius-md);
+  }
+  .md\:radius-lg {
+    border-radius: var(--radius-lg);
+  }
+  .md\:radius-xl {
+    border-radius: var(--radius-xl);
+  }
+  .md\:radius-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .md\:radius-3xl {
+    border-radius: var(--radius-3xl);
+  }
+}
+@media (max-width: 40rem) {
+  .sm\:radius-3xs {
+    border-radius: var(--radius-3xs);
+  }
+  .sm\:radius-2xs {
+    border-radius: var(--radius-2xs);
+  }
+  .sm\:radius-xs {
+    border-radius: var(--radius-xs);
+  }
+  .sm\:radius-sm {
+    border-radius: var(--radius-sm);
+  }
+  .sm\:radius-md {
+    border-radius: var(--radius-md);
+  }
+  .sm\:radius-lg {
+    border-radius: var(--radius-lg);
+  }
+  .sm\:radius-xl {
+    border-radius: var(--radius-xl);
+  }
+  .sm\:radius-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .sm\:radius-3xl {
+    border-radius: var(--radius-3xl);
+  }
+}

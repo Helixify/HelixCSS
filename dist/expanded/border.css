@@ -1,0 +1,370 @@
+/*  
+  Helix CSS
+  Module: Border
+*/
+:root {
+  --radius-3xs: 0.25rem;
+  --radius-2xs: 0.375rem;
+  --radius-xs: 0.5rem;
+  --radius-sm: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 1.75rem;
+  --radius-3xl: 2rem;
+}
+
+.radius-3xs {
+  border-radius: var(--radius-3xs);
+}
+.radius-2xs {
+  border-radius: var(--radius-2xs);
+}
+.radius-xs {
+  border-radius: var(--radius-xs);
+}
+.radius-sm {
+  border-radius: var(--radius-sm);
+}
+.radius-md {
+  border-radius: var(--radius-md);
+}
+.radius-lg {
+  border-radius: var(--radius-lg);
+}
+.radius-xl {
+  border-radius: var(--radius-xl);
+}
+.radius-2xl {
+  border-radius: var(--radius-2xl);
+}
+.radius-3xl {
+  border-radius: var(--radius-3xl);
+}
+
+.border-style-none {
+  border-style: none;
+}
+.border-style-hidden {
+  border-style: hidden;
+}
+.border-style-dotted {
+  border-style: dotted;
+}
+.border-style-dashed {
+  border-style: dashed;
+}
+.border-style-solid {
+  border-style: solid;
+}
+.border-style-double {
+  border-style: double;
+}
+.border-style-groove {
+  border-style: groove;
+}
+.border-style-ridge {
+  border-style: ridge;
+}
+.border-style-inset {
+  border-style: inset;
+}
+.border-style-outset {
+  border-style: outset;
+}
+
+@media (max-width: 96rem) {
+  .\32 xl\:radius-3xs {
+    border-radius: var(--radius-3xs);
+  }
+  .\32 xl\:radius-2xs {
+    border-radius: var(--radius-2xs);
+  }
+  .\32 xl\:radius-xs {
+    border-radius: var(--radius-xs);
+  }
+  .\32 xl\:radius-sm {
+    border-radius: var(--radius-sm);
+  }
+  .\32 xl\:radius-md {
+    border-radius: var(--radius-md);
+  }
+  .\32 xl\:radius-lg {
+    border-radius: var(--radius-lg);
+  }
+  .\32 xl\:radius-xl {
+    border-radius: var(--radius-xl);
+  }
+  .\32 xl\:radius-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .\32 xl\:radius-3xl {
+    border-radius: var(--radius-3xl);
+  }
+  .\32 xl\:border-style-none {
+    border-style: none;
+  }
+  .\32 xl\:border-style-hidden {
+    border-style: hidden;
+  }
+  .\32 xl\:border-style-dotted {
+    border-style: dotted;
+  }
+  .\32 xl\:border-style-dashed {
+    border-style: dashed;
+  }
+  .\32 xl\:border-style-solid {
+    border-style: solid;
+  }
+  .\32 xl\:border-style-double {
+    border-style: double;
+  }
+  .\32 xl\:border-style-groove {
+    border-style: groove;
+  }
+  .\32 xl\:border-style-ridge {
+    border-style: ridge;
+  }
+  .\32 xl\:border-style-inset {
+    border-style: inset;
+  }
+  .\32 xl\:border-style-outset {
+    border-style: outset;
+  }
+}
+@media (max-width: 80rem) {
+  .xl\:radius-3xs {
+    border-radius: var(--radius-3xs);
+  }
+  .xl\:radius-2xs {
+    border-radius: var(--radius-2xs);
+  }
+  .xl\:radius-xs {
+    border-radius: var(--radius-xs);
+  }
+  .xl\:radius-sm {
+    border-radius: var(--radius-sm);
+  }
+  .xl\:radius-md {
+    border-radius: var(--radius-md);
+  }
+  .xl\:radius-lg {
+    border-radius: var(--radius-lg);
+  }
+  .xl\:radius-xl {
+    border-radius: var(--radius-xl);
+  }
+  .xl\:radius-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .xl\:radius-3xl {
+    border-radius: var(--radius-3xl);
+  }
+  .xl\:border-style-none {
+    border-style: none;
+  }
+  .xl\:border-style-hidden {
+    border-style: hidden;
+  }
+  .xl\:border-style-dotted {
+    border-style: dotted;
+  }
+  .xl\:border-style-dashed {
+    border-style: dashed;
+  }
+  .xl\:border-style-solid {
+    border-style: solid;
+  }
+  .xl\:border-style-double {
+    border-style: double;
+  }
+  .xl\:border-style-groove {
+    border-style: groove;
+  }
+  .xl\:border-style-ridge {
+    border-style: ridge;
+  }
+  .xl\:border-style-inset {
+    border-style: inset;
+  }
+  .xl\:border-style-outset {
+    border-style: outset;
+  }
+}
+@media (max-width: 64rem) {
+  .lg\:radius-3xs {
+    border-radius: var(--radius-3xs);
+  }
+  .lg\:radius-2xs {
+    border-radius: var(--radius-2xs);
+  }
+  .lg\:radius-xs {
+    border-radius: var(--radius-xs);
+  }
+  .lg\:radius-sm {
+    border-radius: var(--radius-sm);
+  }
+  .lg\:radius-md {
+    border-radius: var(--radius-md);
+  }
+  .lg\:radius-lg {
+    border-radius: var(--radius-lg);
+  }
+  .lg\:radius-xl {
+    border-radius: var(--radius-xl);
+  }
+  .lg\:radius-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .lg\:radius-3xl {
+    border-radius: var(--radius-3xl);
+  }
+  .lg\:border-style-none {
+    border-style: none;
+  }
+  .lg\:border-style-hidden {
+    border-style: hidden;
+  }
+  .lg\:border-style-dotted {
+    border-style: dotted;
+  }
+  .lg\:border-style-dashed {
+    border-style: dashed;
+  }
+  .lg\:border-style-solid {
+    border-style: solid;
+  }
+  .lg\:border-style-double {
+    border-style: double;
+  }
+  .lg\:border-style-groove {
+    border-style: groove;
+  }
+  .lg\:border-style-ridge {
+    border-style: ridge;
+  }
+  .lg\:border-style-inset {
+    border-style: inset;
+  }
+  .lg\:border-style-outset {
+    border-style: outset;
+  }
+}
+@media (max-width: 48rem) {
+  .md\:radius-3xs {
+    border-radius: var(--radius-3xs);
+  }
+  .md\:radius-2xs {
+    border-radius: var(--radius-2xs);
+  }
+  .md\:radius-xs {
+    border-radius: var(--radius-xs);
+  }
+  .md\:radius-sm {
+    border-radius: var(--radius-sm);
+  }
+  .md\:radius-md {
+    border-radius: var(--radius-md);
+  }
+  .md\:radius-lg {
+    border-radius: var(--radius-lg);
+  }
+  .md\:radius-xl {
+    border-radius: var(--radius-xl);
+  }
+  .md\:radius-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .md\:radius-3xl {
+    border-radius: var(--radius-3xl);
+  }
+  .md\:border-style-none {
+    border-style: none;
+  }
+  .md\:border-style-hidden {
+    border-style: hidden;
+  }
+  .md\:border-style-dotted {
+    border-style: dotted;
+  }
+  .md\:border-style-dashed {
+    border-style: dashed;
+  }
+  .md\:border-style-solid {
+    border-style: solid;
+  }
+  .md\:border-style-double {
+    border-style: double;
+  }
+  .md\:border-style-groove {
+    border-style: groove;
+  }
+  .md\:border-style-ridge {
+    border-style: ridge;
+  }
+  .md\:border-style-inset {
+    border-style: inset;
+  }
+  .md\:border-style-outset {
+    border-style: outset;
+  }
+}
+@media (max-width: 40rem) {
+  .sm\:radius-3xs {
+    border-radius: var(--radius-3xs);
+  }
+  .sm\:radius-2xs {
+    border-radius: var(--radius-2xs);
+  }
+  .sm\:radius-xs {
+    border-radius: var(--radius-xs);
+  }
+  .sm\:radius-sm {
+    border-radius: var(--radius-sm);
+  }
+  .sm\:radius-md {
+    border-radius: var(--radius-md);
+  }
+  .sm\:radius-lg {
+    border-radius: var(--radius-lg);
+  }
+  .sm\:radius-xl {
+    border-radius: var(--radius-xl);
+  }
+  .sm\:radius-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .sm\:radius-3xl {
+    border-radius: var(--radius-3xl);
+  }
+  .sm\:border-style-none {
+    border-style: none;
+  }
+  .sm\:border-style-hidden {
+    border-style: hidden;
+  }
+  .sm\:border-style-dotted {
+    border-style: dotted;
+  }
+  .sm\:border-style-dashed {
+    border-style: dashed;
+  }
+  .sm\:border-style-solid {
+    border-style: solid;
+  }
+  .sm\:border-style-double {
+    border-style: double;
+  }
+  .sm\:border-style-groove {
+    border-style: groove;
+  }
+  .sm\:border-style-ridge {
+    border-style: ridge;
+  }
+  .sm\:border-style-inset {
+    border-style: inset;
+  }
+  .sm\:border-style-outset {
+    border-style: outset;
+  }
+}
