@@ -2,9 +2,9 @@
 <div align="center">
   <h3>A modular CSS framework</h3>
   	<span>
+		<span>&nbsp;&nbsp;·&nbsp;&nbsp;</span>
 		<a href="#get-started">Get started</a>
 		<span>&nbsp;&nbsp;·&nbsp;&nbsp;</span>
-		<a href="#modules">Modules</a>
 	</span>
 </div>
 
