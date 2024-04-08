@@ -5,8 +5,6 @@
 		<a href="#get-started">Get started</a>
 		<span>&nbsp;&nbsp;·&nbsp;&nbsp;</span>
 		<a href="#modules">Modules</a>
-		<span>&nbsp;&nbsp;·&nbsp;&nbsp;</span>
-		<a href="#build">Documentation</a>
 	</span>
 </div>
 
