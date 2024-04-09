@@ -60,4 +60,4 @@ To get started with HelixCSS, simply include the following CDN link in your HTML
 
 ## License
 
-HelixColor is released under the [MIT License](/license.md). You are free to use and modify it for your projects.
+HelixCSS is released under the [MIT License](/license.md). You are free to use and modify it for your projects.
