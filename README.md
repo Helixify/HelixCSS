@@ -1,4 +1,4 @@
-<img src='./public/doc/cover.png' title='BeviCSS - Builder' alt='Logo BeviCSS - Builder' />
+<img src='./public/doc/cover.png' title='HelixCSS' alt='Logo HelixCSS' />
 <div align="center">
   <h3>A modular CSS framework</h3>
   	<span>
