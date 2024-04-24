@@ -10,7 +10,7 @@
   --form-outline-width: 2px;
 }
 
-:where(button, input, textarea, select, a, a.button),
+:where(button, input, textarea, select, a.button),
 :where(input[type=file])::file-selector-button {
   padding-block: 0.5rem;
   padding-inline: 0.5rem;

@@ -666,7 +666,7 @@ h6,
   flex-shrink: 1;
 }
 
-:where(button, input, textarea, select, a, a.button),
+:where(button, input, textarea, select, a.button),
 :where(input[type=file])::file-selector-button {
   padding-block: 0.5rem;
   padding-inline: 0.5rem;
@@ -816,33 +816,6 @@ a.button):where(:not(:active)):hover,
   gap: var(--gap-3xl);
 }
 
-.ds-flex {
-  display: flex;
-}
-.ds-flex-start {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-.ds-flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.ds-flex-end {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-.ds-inline-flex {
-  display: inline-flex;
-}
-.ds-inline-flex-center {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .grid-flow-row {
   grid-auto-flow: row;
 }
@@ -916,13 +889,13 @@ a.button):where(:not(:active)):hover,
   top: 100%;
 }
 
-.botton-0 {
+.bottom-0 {
   bottom: 0;
 }
-.botton-50 {
+.bottom-50 {
   bottom: 50%;
 }
-.botton-100 {
+.bottom-100 {
   bottom: 100%;
 }
 
