@@ -26,6 +26,7 @@
   --font-size-md: 1em;
   --font-size-lg: 1.25em;
   --font-size-xl: 1.5em;
+  --small-size: 0.75rem;
   --heading-color: black;
   --text-color: black;
   --code-color: black;
@@ -43,6 +44,10 @@
   font-weight: var(--font-weight-code);
   color: var(--code-color);
   line-height: var(--font-line-height);
+}
+
+small {
+  font-size: var(--small-size);
 }
 
 :is(h1,
