@@ -167,6 +167,13 @@ h6,
   text-decoration: line-through;
 }
 
+.line-height-none {
+  line-height: 1;
+}
+.line-height-default {
+  line-height: var(--font-line-height);
+}
+
 @media (max-width: 96rem) {
   .\32 xl\:heading-01 {
     font-size: var(--heading-01);
