@@ -265,6 +265,13 @@ h6,
   text-decoration: line-through;
 }
 
+.line-height-none {
+  line-height: 1;
+}
+.line-height-default {
+  line-height: var(--font-line-height);
+}
+
 .container-lg, .container-md, .container-sm, .container-full {
   position: relative;
   padding: 0 4rem;
