@@ -1,0 +1,17 @@
+:where(input[type='checkbox']) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+
+	&:checked {
+		background-color: hsl(var(--form-highlight));
+
+		&::after {
+			content: '\2713';
+			color: white;
+			font-size: 1em;
+			position: relative;
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"name": "helix-css",
+	"private": false,
+	"type": "module",
+	"main": "dist/compressed/main.css",
+	"version": "0.7.0",
+	"description": "A framework css for dev",
+	"author": "André Luiz",
+	"homepage": "https://www.helixify.dev/helix-css",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Helixify/HelixCSS.git"
+	},
+	"files": ["dist/compressed/main.css"],
+	"license": "MIT",
+	"scripts": {
+		"build": "node build.js",
+		"dev": "vite",
+		"format": "prettier --write .",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"chokidar": "^4.0.1",
+		"prettier": "^3.3.3",
+		"sass": "^1.79.4",
+		"vite": "^4.5.5"
+	},
+	"keywords": ["helix", "helixcss", "helix-css", "css-framework"]
+}

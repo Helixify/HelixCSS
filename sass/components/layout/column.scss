@@ -1,0 +1,21 @@
+@include prefix('col') {
+	display: block;
+	flex-basis: 0;
+	flex-grow: 1;
+	flex-shrink: 1;
+
+	@for $i from 0 through 12 {
+		&.is-#{$i} {
+			flex: none;
+			width: percentage(math.div($i, 12));
+
+			@include res-query-lg {
+				width: 100%;
+			}
+		}
+	}
+
+	@include res-query-lg {
+		width: 100%;
+	}
+}

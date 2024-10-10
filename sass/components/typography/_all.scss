@@ -1,0 +1,21 @@
+// External partial
+@import '../../mixins/responsive';
+@import '../../mixins/property';
+
+// Internal partial
+@import 'mixin';
+@import 'variable';
+
+:root {
+	@include var-typography;
+}
+
+// Content
+@import 'base';
+@import 'heading';
+@import 'font';
+@import 'text';
+@import 'line';
+
+// Responsive
+@import 'responsive';

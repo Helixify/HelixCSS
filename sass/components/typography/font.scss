@@ -1,0 +1,5 @@
+.font {
+	@include font-size();
+	@include font-weight();
+	@include font-style();
+}

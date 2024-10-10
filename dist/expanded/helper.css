@@ -31,11 +31,20 @@
 .cursor-none {
   cursor: none;
 }
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
 .cursor-pointer {
   cursor: pointer;
 }
+.cursor-progress {
+  cursor: progress;
+}
 .cursor-text {
   cursor: text;
+}
+.cursor-wait {
+  cursor: wait;
 }
 
 .ds-block {
@@ -159,31 +168,31 @@
 .z-index-negative {
   z-index: -1;
 }
-.z-index-00 {
+.z-index-0 {
   z-index: 0;
 }
-.z-index-01 {
+.z-index-1 {
   z-index: 1;
 }
-.z-index-02 {
+.z-index-2 {
   z-index: 2;
 }
-.z-index-03 {
+.z-index-3 {
   z-index: 3;
 }
-.z-index-04 {
+.z-index-4 {
   z-index: 4;
 }
-.z-index-05 {
+.z-index-5 {
   z-index: 5;
 }
-.z-index-06 {
+.z-index-6 {
   z-index: 6;
 }
-.z-index-07 {
+.z-index-7 {
   z-index: 7;
 }
-.z-index-08 {
+.z-index-8 {
   z-index: 8;
 }
 

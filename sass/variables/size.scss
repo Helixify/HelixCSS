@@ -1,0 +1,13 @@
+@mixin var-size {
+	@for $i from 0 through 16 {
+		@if $i == 0 {
+			--#{$i}: #{$i}rem;
+		} @else if $i >= 1 and $i <= 4 {
+			--#{$i}: #{calc(($i * 2) / 16)}rem;
+		} @else if $i > 4 and $i <= 14 {
+			--#{$i}: #{calc((($i * 4) - 8) / 16)}rem;
+		} @else if $i > 14 and $i <= 16 {
+			--#{$i}: #{calc((($i * 8) - 64) / 16)}rem;
+		}
+	}
+}

@@ -1,0 +1,184 @@
+@include res-query-2xl() {
+	// Aspect ratio
+	@include res-class-2xl(aspect) {
+		@include aspect-ratio;
+	}
+
+	// Display
+	@include res-class-2xl(ds) {
+		@include display;
+		@include display-flex;
+		@include display-grid;
+	}
+
+	// Object fit
+	@include res-class-2xl(object-fit) {
+		@include object-fit;
+	}
+
+	// Overflow
+	@include res-class-2xl(overflow) {
+		@include overflow;
+	}
+
+	// Size
+	@include res-class-2xl(width) {
+		@include size-width;
+	}
+	@include res-class-2xl(height) {
+		@include size-height;
+	}
+
+	// White Space
+	@include res-class-2xl(white-space) {
+		@include white-space;
+	}
+}
+
+@include res-query-xl() {
+	// Aspect ratio
+	@include res-class-xl(aspect) {
+		@include aspect-ratio;
+	}
+
+	// Display
+	@include res-class-xl(ds) {
+		@include display;
+		@include display-flex;
+		@include display-grid;
+	}
+
+	// Object fit
+	@include res-class-xl(object-fit) {
+		@include object-fit;
+	}
+
+	// Overflow
+	@include res-class-xl(overflow) {
+		@include overflow;
+	}
+
+	// Size
+	@include res-class-xl(width) {
+		@include size-width;
+	}
+	@include res-class-xl(height) {
+		@include size-height;
+	}
+
+	// White Space
+	@include res-class-xl(white-space) {
+		@include white-space;
+	}
+}
+
+@include res-query-lg() {
+	// Aspect ratio
+	@include res-class-lg(aspect) {
+		@include aspect-ratio;
+	}
+
+	// Display
+	@include res-class-lg(ds) {
+		@include display;
+		@include display-flex;
+		@include display-grid;
+	}
+
+	// Object fit
+	@include res-class-lg(object-fit) {
+		@include object-fit;
+	}
+
+	// Overflow
+	@include res-class-lg(overflow) {
+		@include overflow;
+	}
+
+	// Size
+	@include res-class-lg(width) {
+		@include size-width;
+	}
+	@include res-class-lg(height) {
+		@include size-height;
+	}
+
+	// White Space
+	@include res-class-lg(white-space) {
+		@include white-space;
+	}
+}
+
+@include res-query-md() {
+	// Aspect ratio
+	@include res-class-md(aspect) {
+		@include aspect-ratio;
+	}
+
+	// Display
+	@include res-class-md(ds) {
+		@include display;
+		@include display-flex;
+		@include display-grid;
+	}
+
+	// Object fit
+	@include res-class-md(object-fit) {
+		@include object-fit;
+	}
+
+	// Overflow
+	@include res-class-md(overflow) {
+		@include overflow;
+	}
+
+	// Size
+	@include res-class-md(width) {
+		@include size-width;
+	}
+	@include res-class-md(height) {
+		@include size-height;
+	}
+
+	// White Space
+	@include res-class-md(white-space) {
+		@include white-space;
+	}
+}
+
+@include res-query-sm() {
+	// Aspect ratio
+	@include res-class-sm(aspect) {
+		@include aspect-ratio;
+	}
+
+	// Display
+	@include res-class-sm(ds) {
+		@include display;
+		@include display-flex;
+		@include display-grid;
+	}
+
+	// Object fit
+	@include res-class-sm(object-fit) {
+		@include object-fit;
+	}
+
+	// Overflow
+	@include res-class-sm(overflow) {
+		@include overflow;
+	}
+
+	// Size
+	@include res-class-sm(width) {
+		@include size-width;
+	}
+	@include res-class-sm(height) {
+		@include size-height;
+	}
+
+	// White Space
+	@include res-class-sm(white-space) {
+		@include white-space;
+	}
+}

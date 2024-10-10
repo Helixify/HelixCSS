@@ -1,0 +1,36 @@
+@mixin space-primitive($property) {
+	@include value($property);
+}
+
+@mixin space-simple($class, $property) {
+	&#{$class} {
+		@include value($property);
+	}
+}
+
+@mixin space-complex($class, $property) {
+	&-#{$class} {
+		@include value($property);
+	}
+}
+
+@mixin value($property) {
+	@for $i from 0 through 16 {
+		@if $i == 0 {
+			&-#{$i},
+			&-less {
+				#{$property}: var(--#{$i});
+			}
+		} @else {
+			@if $i < 10 {
+				&-#{$i} {
+					#{$property}: var(--#{$i});
+				}
+			} @else {
+				&-#{$i} {
+					#{$property}: var(--#{$i});
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+@import '../helper/mixin';
+
+@include res-query-2xl() {
+	@include res-class-2xl(ds) {
+		@include display-flex;
+	}
+
+	@include res-class-2xl(flow) {
+		@include flex-flow;
+	}
+}
+
+@include res-query-xl() {
+	@include res-class-xl(ds) {
+		@include display-flex;
+	}
+
+	@include res-class-xl(flow) {
+		@include flex-flow;
+	}
+}
+
+@include res-query-lg() {
+	@include res-class-lg(ds) {
+		@include display-flex;
+	}
+
+	@include res-class-lg(flow) {
+		@include flex-flow;
+	}
+}
+
+@include res-query-md() {
+	@include res-class-md(ds) {
+		@include display-flex;
+	}
+
+	@include res-class-md(flow) {
+		@include flex-flow;
+	}
+}
+
+@include res-query-sm() {
+	@include res-class-sm(ds) {
+		@include display-flex;
+	}
+
+	@include res-class-sm(flow) {
+		@include flex-flow;
+	}
+}

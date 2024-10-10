@@ -1,0 +1,20 @@
+:where(
+		button,
+		input[type='button'],
+		input[type='submit'],
+		input[type='reset'],
+		a.button
+	),
+:where(input[type='file'])::file-selector-button {
+	cursor: pointer;
+	line-height: 1.13;
+
+	&:where(:not(:active)):hover {
+		border-color: hsl(var(--form-highlight));
+		outline: {
+			width: var(--form-outline-width);
+			color: hsla(var(--form-highlight), 0.32);
+			offset: 0px;
+		}
+	}
+}

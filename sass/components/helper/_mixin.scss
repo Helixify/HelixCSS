@@ -1,0 +1,172 @@
+@import '../alignment/mixin';
+
+// All
+@mixin all {
+	@include property(all, initial, inherit, unset, revert);
+}
+
+// Aspect Ratio
+@mixin aspect-ratio {
+	&-auto {
+		aspect-ratio: auto;
+	}
+	&-square {
+		aspect-ratio: 1 / 1;
+	}
+	&-video {
+		aspect-ratio: 16 / 9;
+	}
+}
+
+// Border
+
+// Cursor
+@mixin cursor {
+	@include property(cursor, default, none, pointer, text);
+}
+
+// Display
+@mixin display {
+	@include property(
+		display,
+		block,
+		inline,
+		inline-block,
+		none
+	);
+}
+@mixin display-flex {
+	&-flex {
+		display: flex;
+
+		&-start {
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+
+		&-center {
+			display: flex;
+			@include positioning-center;
+		}
+
+		&-end {
+			display: flex;
+			justify-content: flex-end;
+			align-items: flex-end;
+		}
+	}
+
+	&-inline-flex {
+		display: inline-flex;
+
+		&-center {
+			display: inline-flex;
+			@include positioning-center;
+		}
+	}
+}
+@mixin display-grid {
+	&-grid {
+		display: grid;
+	}
+
+	&-inline-grid {
+		display: inline-grid;
+	}
+}
+
+// List
+@mixin list-style {
+	&-none {
+		list-style: none;
+	}
+	&-inside {
+		list-style: inside;
+	}
+	&-outside {
+		list-style: outside;
+	}
+}
+
+// Object Fit
+@mixin object-fit {
+	@include property(
+		object-fit,
+		contain,
+		cover,
+		fill,
+		none,
+		scale-down
+	);
+}
+
+// Overflow
+@mixin overflow {
+	@include property(overflow, hidden, auto, scroll);
+}
+
+// Size
+@mixin size-width {
+	&-100,
+	&-fill {
+		width: 100%;
+	}
+
+	&-fit {
+		width: -moz-fit-content;
+		width: fit-content;
+	}
+}
+
+@mixin size-height {
+	&-100,
+	&-fill {
+		height: 100%;
+	}
+
+	&-auto {
+		height: auto;
+	}
+}
+
+// Transition
+
+// Visibility
+@mixin visibility-hidden {
+	visibility: hidden;
+}
+@mixin visibility-visible {
+	visibility: visible;
+}
+
+// White Space
+@mixin white-space {
+	@include property(
+		white-space,
+		normal,
+		nowrap,
+		pre,
+		pre-wrap,
+		pre-line,
+		break-spaces
+	);
+}
+
+// Z Index
+@mixin z-index {
+	&-auto {
+		z-index: auto;
+	}
+	@for $i from -1 through 8 {
+		@if $i == -1 {
+			&-negative {
+				z-index: $i;
+			}
+		} @else {
+			&-#{$i} {
+				z-index: $i;
+			}
+		}
+	}
+}

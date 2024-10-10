@@ -1,0 +1,84 @@
+@include res-query-2xl {
+	@include res-class-2xl(heading-0) {
+		@include heading;
+	}
+
+	@include res-class-2xl(font) {
+		@include font-size;
+		@include font-weight;
+		@include font-style;
+	}
+
+	@include res-class-2xl(text) {
+		@include text-align;
+		@include text-decoration;
+	}
+}
+
+@include res-query-xl {
+	@include res-class-xl(heading-0) {
+		@include heading;
+	}
+
+	@include res-class-xl(font) {
+		@include font-size;
+		@include font-weight;
+		@include font-style;
+	}
+
+	@include res-class-xl(text) {
+		@include text-align;
+		@include text-decoration;
+	}
+}
+
+@include res-query-lg {
+	@include res-class-lg(heading-0) {
+		@include heading;
+	}
+
+	@include res-class-lg(font) {
+		@include font-size;
+		@include font-weight;
+		@include font-style;
+	}
+
+	@include res-class-lg(text) {
+		@include text-align;
+		@include text-decoration;
+	}
+}
+
+@include res-query-md {
+	@include res-class-md(heading-0) {
+		@include heading;
+	}
+
+	@include res-class-md(font) {
+		@include font-size;
+		@include font-weight;
+		@include font-style;
+	}
+
+	@include res-class-md(text) {
+		@include text-align;
+		@include text-decoration;
+	}
+}
+
+@include res-query-sm {
+	@include res-class-sm(heading-0) {
+		@include heading;
+	}
+
+	@include res-class-sm(font) {
+		@include font-size;
+		@include font-weight;
+		@include font-style;
+	}
+
+	@include res-class-sm(text) {
+		@include text-align;
+		@include text-decoration;
+	}
+}

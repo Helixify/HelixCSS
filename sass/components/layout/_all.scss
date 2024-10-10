@@ -1,0 +1,16 @@
+// External partial
+@import '../../mixins/prefix';
+@import '../../mixins/responsive';
+
+// Internal partial
+@import 'variable';
+@import 'mixin';
+
+:root {
+	@include var-container;
+}
+
+// Content
+@import 'container';
+@import 'row';
+@import 'column';

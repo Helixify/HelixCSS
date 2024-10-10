@@ -1,0 +1,9 @@
+.m {
+	@include space-primitive(margin);
+	@include space-simple(t, margin-top);
+	@include space-simple(r, margin-right);
+	@include space-simple(b, margin-bottom);
+	@include space-simple(l, margin-left);
+	@include space-complex(block, margin-block);
+	@include space-complex(inline, margin-inline);
+}

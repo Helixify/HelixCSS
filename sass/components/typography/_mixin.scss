@@ -1,0 +1,120 @@
+// Mixin for heading size
+@mixin heading {
+	@for $i from 1 through 6 {
+		&#{$i} {
+			font-size: var(--heading-#{$i});
+		}
+	}
+}
+
+// Mixin for text size
+@mixin font-size {
+	&-size-xs {
+		font-size: var(--font-size-xs);
+	}
+
+	&-size-sm {
+		font-size: var(--font-size-sm);
+	}
+
+	&-size-md {
+		font-size: var(--font-size-md);
+	}
+
+	&-size-lg {
+		font-size: var(--font-size-lg);
+	}
+
+	&-size-xl {
+		font-size: var(--font-size-xl);
+	}
+}
+
+// Mixin Style
+@mixin font-style {
+	@include property-name(
+		style,
+		font-style,
+		normal,
+		italic,
+		oblique
+	);
+}
+
+// Mixin font weight
+@mixin font-weight {
+	&-weight {
+		&-100,
+		&-thin {
+			font-weight: 100;
+		}
+
+		&-200,
+		&-extra-light {
+			font-weight: 200;
+		}
+
+		&-300,
+		&-light {
+			font-weight: 300;
+		}
+
+		&-400,
+		&-regular {
+			font-weight: 400;
+		}
+
+		&-500,
+		&-medium {
+			font-weight: 500;
+		}
+
+		&-600,
+		&-semi-bold {
+			font-weight: 600;
+		}
+
+		&-700,
+		&-bold {
+			font-weight: 700;
+		}
+
+		&-800,
+		&-extra-bold {
+			font-weight: 800;
+		}
+
+		&-900,
+		&-black {
+			font-weight: 900;
+		}
+
+		&-1000,
+		&-weight {
+			font-weight: 1000;
+		}
+	}
+}
+
+// Mixin text decoration
+@mixin text-decoration {
+	@include property-name(
+		decoration,
+		text-decoration,
+		none,
+		underline,
+		overline,
+		line-through
+	);
+}
+
+// Mixin text align
+@mixin text-align {
+	@include property-name(
+		align,
+		text-align,
+		left,
+		center,
+		right
+	);
+}

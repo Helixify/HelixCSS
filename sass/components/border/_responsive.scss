@@ -1,0 +1,44 @@
+@include res-query-2xl() {
+	@include res-class-2xl(radius) {
+		@include radius;
+	}
+	@include res-class-2xl(border-style) {
+		@include border-style;
+	}
+}
+
+@include res-query-xl() {
+	@include res-class-xl(radius) {
+		@include radius;
+	}
+	@include res-class-xl(border-style) {
+		@include border-style;
+	}
+}
+
+@include res-query-lg() {
+	@include res-class-lg(radius) {
+		@include radius;
+	}
+	@include res-class-lg(border-style) {
+		@include border-style;
+	}
+}
+
+@include res-query-md() {
+	@include res-class-md(radius) {
+		@include radius;
+	}
+	@include res-class-md(border-style) {
+		@include border-style;
+	}
+}
+
+@include res-query-sm() {
+	@include res-class-sm(radius) {
+		@include radius;
+	}
+	@include res-class-sm(border-style) {
+		@include border-style;
+	}
+}

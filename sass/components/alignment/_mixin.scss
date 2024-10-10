@@ -1,0 +1,45 @@
+@mixin positioning($property) {
+	&-start {
+		#{$property}: flex-start;
+	}
+
+	&-center {
+		#{$property}: center;
+	}
+
+	&-end {
+		#{$property}: flex-end;
+	}
+}
+
+// Justify content and Align items center
+@mixin positioning-center {
+	align-items: center;
+	justify-content: center;
+}
+
+// Justify content
+@mixin positioning-justify {
+	&-between {
+		justify-content: space-between;
+	}
+
+	&-around {
+		justify-content: space-around;
+	}
+
+	&-evenly {
+		justify-content: space-evenly;
+	}
+}
+
+// Align items
+@mixin positioning-align {
+	&-stretch {
+		align-items: stretch;
+	}
+
+	&-baseline {
+		align-items: baseline;
+	}
+}

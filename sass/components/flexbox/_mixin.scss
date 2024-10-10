@@ -1,0 +1,43 @@
+@import '../alignment/mixin';
+
+// Flow direction
+@mixin flex-flow {
+	&-row-wr {
+		flex-flow: row wrap;
+	}
+
+	&-row-nw {
+		flex-flow: row nowrap;
+	}
+
+	&-row-rev-wr {
+		flex-flow: row-reverse wrap;
+	}
+
+	&-row-rev-nw {
+		flex-flow: row-reverse nowrap;
+	}
+
+	&-col-wr {
+		flex-flow: column wrap;
+	}
+
+	&-col-nw {
+		flex-flow: column nowrap;
+	}
+
+	&-col-rev-wr {
+		flex-flow: column-reverse wrap;
+	}
+
+	&-col-rev-nw {
+		flex-flow: column-reverse nowrap;
+	}
+}
+
+// Flex BGS
+@mixin flex-bgs {
+	flex-basis: 0;
+	flex-grow: 1;
+	flex-shrink: 1;
+}

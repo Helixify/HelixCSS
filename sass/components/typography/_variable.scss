@@ -1,0 +1,35 @@
+@mixin var-typography {
+	--font-family: ui-sans-serif, -apple-system,
+		BlinkMacSystemFont, 'Segoe UI', Helvetica,
+		'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji',
+		'Segoe UI Symbol';
+	--font-family-heading: var(--font-family);
+	--font-family-text: var(--font-family);
+	--font-family-code: var(--font-family);
+
+	--font-weight-heading: 600;
+	--font-weight-text: 400;
+	--font-weight-code: var(--font-family-text);
+
+	--heading-1: 2.5em;
+	--heading-2: 2em;
+	--heading-3: 1.5em;
+	--heading-4: 1.25em;
+	--heading-5: 1em;
+	--heading-6: 0.75em;
+
+	--heading-line-height: 100%;
+	--font-line-height: 1.4;
+
+	--font-size-xs: 0.75em;
+	--font-size-sm: 0.875em;
+	--font-size-md: 1em;
+	--font-size-lg: 1.25em;
+	--font-size-xl: 1.5em;
+
+	--small-size: 0.75rem;
+
+	--heading-color: initial;
+	--text-color: initial;
+	--code-color: initial;
+}

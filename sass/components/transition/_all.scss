@@ -1,0 +1,14 @@
+// External partial
+
+// Internal partial
+@import 'mixin';
+@import 'variable';
+
+:root {
+	@include var-transition;
+}
+
+// Content
+@import 'duration';
+@import 'property';
+@import 'timing-function';

@@ -14,6 +14,9 @@
   --radius-3xl: 2rem;
 }
 
+.radius-none {
+  border-radius: 0;
+}
 .radius-3xs {
   border-radius: var(--radius-3xs);
 }
@@ -74,6 +77,9 @@
 }
 
 @media (max-width: 96rem) {
+  .\32 xl\:radius-none {
+    border-radius: 0;
+  }
   .\32 xl\:radius-3xs {
     border-radius: var(--radius-3xs);
   }
@@ -133,6 +139,9 @@
   }
 }
 @media (max-width: 80rem) {
+  .xl\:radius-none {
+    border-radius: 0;
+  }
   .xl\:radius-3xs {
     border-radius: var(--radius-3xs);
   }
@@ -192,6 +201,9 @@
   }
 }
 @media (max-width: 64rem) {
+  .lg\:radius-none {
+    border-radius: 0;
+  }
   .lg\:radius-3xs {
     border-radius: var(--radius-3xs);
   }
@@ -251,6 +263,9 @@
   }
 }
 @media (max-width: 48rem) {
+  .md\:radius-none {
+    border-radius: 0;
+  }
   .md\:radius-3xs {
     border-radius: var(--radius-3xs);
   }
@@ -310,6 +325,9 @@
   }
 }
 @media (max-width: 40rem) {
+  .sm\:radius-none {
+    border-radius: 0;
+  }
   .sm\:radius-3xs {
     border-radius: var(--radius-3xs);
   }

@@ -1,0 +1,22 @@
+h1,
+.heading-1,
+h2,
+.heading-2,
+h3,
+.heading-3,
+h4,
+.heading-4,
+h5,
+.heading-3,
+h6,
+.heading-6 {
+	font-family: var(--font-family-heading);
+	font-weight: var(--font-weight-heading);
+	line-height: var(--heading-line-height);
+	color: var(--heading-color);
+}
+
+h,
+.heading- {
+	@include heading();
+}

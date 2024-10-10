@@ -1,0 +1,29 @@
+:where(
+		input[type='text'],
+		input[type='password'],
+		input[type='email'],
+		input[type='tel'],
+		input[type='search'],
+		input[type='number'],
+		input[type='date'],
+		input[type='datetime'],
+		input[type='datetime-local'],
+		select,
+		textarea
+	) {
+	cursor: text;
+	&:where(:not(:active)):focus-visible {
+		border-color: hsl(var(--form-highlight));
+		outline: {
+			width: var(--form-outline-width);
+			color: hsla(var(--form-highlight), 0.32);
+			offset: 0px;
+		}
+	}
+}
+
+:where(input[type='file']) {
+	padding: var(--form-outline-width);
+	border: none;
+	cursor: pointer;
+}

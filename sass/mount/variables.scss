@@ -1,0 +1,19 @@
+@import '../variables/size';
+@import '../components/typography/variable';
+@import '../components/layout/variable';
+@import '../components/border/variable';
+@import '../components/gap/variable';
+@import '../components/form/variable';
+@import '../components/transition/variable';
+
+:root {
+	--size-0: 0rem;
+
+	@include var-size;
+	@include var-typography;
+	@include var-container;
+	@include var-radius;
+	@include var-gap;
+	@include var-form;
+	@include var-transition;
+}

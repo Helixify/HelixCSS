@@ -1,0 +1,12 @@
+.cursor {
+	@include property(
+		cursor,
+		default,
+		none,
+		not-allowed,
+		pointer,
+		progress,
+		text,
+		wait
+	);
+}

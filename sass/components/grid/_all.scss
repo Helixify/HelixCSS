@@ -1,0 +1,16 @@
+// External partial\
+@import '../../mixins/responsive';
+@import '../helper/mixin';
+
+// Internal partial
+@import 'mixin';
+
+// Content
+.ds {
+	@include display-grid;
+}
+@import 'flow';
+@import 'template';
+
+// Responsive
+@import 'responsive';

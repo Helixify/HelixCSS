@@ -1,0 +1,6 @@
+@mixin size($size, $property, $value) {
+	&-#{$size} {
+		#{$property}: $value;
+		@content;
+	}
+}

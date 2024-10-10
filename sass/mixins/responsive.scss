@@ -1,0 +1,169 @@
+@import '../variables/media-query';
+
+// Mixin class
+
+// Create class 2XL
+@mixin res-class-2xl($class) {
+	.\32xl {
+		&\:#{$class} {
+			@content;
+		}
+	}
+}
+
+// Create class XL
+@mixin res-class-xl($class) {
+	.xl {
+		&\:#{$class} {
+			@content;
+		}
+	}
+}
+
+// Create class LG
+@mixin res-class-lg($class) {
+	.lg {
+		&\:#{$class} {
+			@content;
+		}
+	}
+}
+
+// Create class MD
+@mixin res-class-md($class) {
+	.md {
+		&\:#{$class} {
+			@content;
+		}
+	}
+}
+
+// Create class SM
+@mixin res-class-sm($class) {
+	.sm {
+		&\:#{$class} {
+			@content;
+		}
+	}
+}
+
+// Mixin media query screen
+
+// Create media query screen 2XL
+@mixin res-query-2xl {
+	@media (max-width: $screen-2xl) {
+		@content;
+	}
+}
+
+// Create media query screen XL
+@mixin res-query-xl {
+	@media (max-width: $screen-xl) {
+		@content;
+	}
+}
+
+// Create media query screen LG
+@mixin res-query-lg {
+	@media (max-width: $screen-lg) {
+		@content;
+	}
+}
+
+// Create media query screen MD
+@mixin res-query-md {
+	@media (max-width: $screen-md) {
+		@content;
+	}
+}
+
+// Create media query screen SM
+@mixin res-query-sm {
+	@media (max-width: $screen-sm) {
+		@content;
+	}
+}
+
+@mixin res-all-query {
+	@include res-query-2xl {
+		@content;
+	}
+	@include res-query-xl {
+		@content;
+	}
+	@include res-query-lg {
+		@content;
+	}
+	@include res-query-md {
+		@content;
+	}
+	@include res-query-sm {
+		@content;
+	}
+}
+
+// Mixin create media query screen with class
+
+// Create media query with class 2XL
+@mixin res-query-class-2xl($class) {
+	@include res-query-2xl {
+		@include res-class-2xl($class) {
+			@content;
+		}
+	}
+}
+
+// Create media query with class XL
+@mixin res-query-class-xl($class) {
+	@include res-query-xl {
+		@include res-class-xl($class) {
+			@content;
+		}
+	}
+}
+
+// Create media query with class LG
+@mixin res-query-class-lg($class) {
+	@include res-query-lg {
+		@include res-class-lg($class) {
+			@content;
+		}
+	}
+}
+
+// Create media query with class MD
+@mixin res-query-class-md($class) {
+	@include res-query-md {
+		@include res-class-md($class) {
+			@content;
+		}
+	}
+}
+
+// Create media query with class SM
+@mixin res-query-class-sm($class) {
+	@include res-query-sm {
+		@include res-class-sm($class) {
+			@content;
+		}
+	}
+}
+
+// Create all media query with class
+@mixin res-all-query-class($class) {
+	@include res-query-class-2xl($class) {
+		@content;
+	}
+	@include res-query-class-xl($class) {
+		@content;
+	}
+	@include res-query-class-lg($class) {
+		@content;
+	}
+	@include res-query-class-md($class) {
+		@content;
+	}
+	@include res-query-class-sm($class) {
+		@content;
+	}
+}

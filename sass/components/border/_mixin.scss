@@ -1,0 +1,49 @@
+@mixin radius {
+	&-none {
+		border-radius: 0;
+	}
+	&-3xs {
+		border-radius: var(--radius-3xs);
+	}
+	&-2xs {
+		border-radius: var(--radius-2xs);
+	}
+	&-xs {
+		border-radius: var(--radius-xs);
+	}
+	&-sm {
+		border-radius: var(--radius-sm);
+	}
+	&-md {
+		border-radius: var(--radius-md);
+	}
+	&-lg {
+		border-radius: var(--radius-lg);
+	}
+	&-xl {
+		border-radius: var(--radius-xl);
+	}
+	&-2xl {
+		border-radius: var(--radius-2xl);
+	}
+	&-3xl {
+		border-radius: var(--radius-3xl);
+	}
+}
+
+// Style
+@mixin border-style {
+	@include property(
+		border-style,
+		none,
+		hidden,
+		dotted,
+		dashed,
+		solid,
+		double,
+		groove,
+		ridge,
+		inset,
+		outset
+	);
+}

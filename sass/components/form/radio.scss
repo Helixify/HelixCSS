@@ -1,0 +1,14 @@
+:where(input[type='radio']) {
+	border-radius: 50%;
+	position: relative;
+
+	&:checked {
+		&::after {
+			content: '';
+			position: absolute;
+			inset: 0.125rem;
+			border-radius: 50%;
+			background-color: hsl(var(--form-highlight));
+		}
+	}
+}

@@ -13,12 +13,12 @@
   --font-weight-heading: 600;
   --font-weight-text: 400;
   --font-weight-code: var(--font-family-text);
-  --heading-01: 2.5em;
-  --heading-02: 2em;
-  --heading-03: 1.5em;
-  --heading-04: 1.25em;
-  --heading-05: 1em;
-  --heading-06: 0.75em;
+  --heading-1: 2.5em;
+  --heading-2: 2em;
+  --heading-3: 1.5em;
+  --heading-4: 1.25em;
+  --heading-5: 1em;
+  --heading-6: 0.75em;
   --heading-line-height: 100%;
   --font-line-height: 1.4;
   --font-size-xs: 0.75em;
@@ -27,9 +27,9 @@
   --font-size-lg: 1.25em;
   --font-size-xl: 1.5em;
   --small-size: 0.75rem;
-  --heading-color: black;
-  --text-color: black;
-  --code-color: black;
+  --heading-color: initial;
+  --text-color: initial;
+  --code-color: initial;
 }
 
 :is(body) {
@@ -50,18 +50,18 @@ small {
   font-size: var(--small-size);
 }
 
-:is(h1,
-.heading-01,
+h1,
+.heading-1,
 h2,
-.heading-02,
+.heading-2,
 h3,
-.heading-03,
+.heading-3,
 h4,
-.heading-04,
+.heading-4,
 h5,
-.heading-03,
+.heading-3,
 h6,
-.heading-06) {
+.heading-6 {
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading);
   line-height: var(--heading-line-height);
@@ -69,28 +69,28 @@ h6,
 }
 
 h1,
-.heading-01 {
-  font-size: var(--heading-01);
+.heading-1 {
+  font-size: var(--heading-1);
 }
 h2,
-.heading-02 {
-  font-size: var(--heading-02);
+.heading-2 {
+  font-size: var(--heading-2);
 }
 h3,
-.heading-03 {
-  font-size: var(--heading-03);
+.heading-3 {
+  font-size: var(--heading-3);
 }
 h4,
-.heading-04 {
-  font-size: var(--heading-04);
+.heading-4 {
+  font-size: var(--heading-4);
 }
 h5,
-.heading-05 {
-  font-size: var(--heading-05);
+.heading-5 {
+  font-size: var(--heading-5);
 }
 h6,
-.heading-06 {
-  font-size: var(--heading-06);
+.heading-6 {
+  font-size: var(--heading-6);
 }
 
 .font-size-xs {
@@ -107,6 +107,9 @@ h6,
 }
 .font-size-xl {
   font-size: var(--font-size-xl);
+}
+.font-weight-100, .font-weight-thin {
+  font-weight: 100;
 }
 .font-weight-200, .font-weight-extra-light {
   font-weight: 200;
@@ -176,22 +179,22 @@ h6,
 
 @media (max-width: 96rem) {
   .\32 xl\:heading-01 {
-    font-size: var(--heading-01);
+    font-size: var(--heading-1);
   }
   .\32 xl\:heading-02 {
-    font-size: var(--heading-02);
+    font-size: var(--heading-2);
   }
   .\32 xl\:heading-03 {
-    font-size: var(--heading-03);
+    font-size: var(--heading-3);
   }
   .\32 xl\:heading-04 {
-    font-size: var(--heading-04);
+    font-size: var(--heading-4);
   }
   .\32 xl\:heading-05 {
-    font-size: var(--heading-05);
+    font-size: var(--heading-5);
   }
   .\32 xl\:heading-06 {
-    font-size: var(--heading-06);
+    font-size: var(--heading-6);
   }
   .\32 xl\:font-size-xs {
     font-size: var(--font-size-xs);
@@ -207,6 +210,9 @@ h6,
   }
   .\32 xl\:font-size-xl {
     font-size: var(--font-size-xl);
+  }
+  .\32 xl\:font-weight-100, .\32 xl\:font-weight-thin {
+    font-weight: 100;
   }
   .\32 xl\:font-weight-200, .\32 xl\:font-weight-extra-light {
     font-weight: 200;
@@ -268,22 +274,22 @@ h6,
 }
 @media (max-width: 80rem) {
   .xl\:heading-01 {
-    font-size: var(--heading-01);
+    font-size: var(--heading-1);
   }
   .xl\:heading-02 {
-    font-size: var(--heading-02);
+    font-size: var(--heading-2);
   }
   .xl\:heading-03 {
-    font-size: var(--heading-03);
+    font-size: var(--heading-3);
   }
   .xl\:heading-04 {
-    font-size: var(--heading-04);
+    font-size: var(--heading-4);
   }
   .xl\:heading-05 {
-    font-size: var(--heading-05);
+    font-size: var(--heading-5);
   }
   .xl\:heading-06 {
-    font-size: var(--heading-06);
+    font-size: var(--heading-6);
   }
   .xl\:font-size-xs {
     font-size: var(--font-size-xs);
@@ -299,6 +305,9 @@ h6,
   }
   .xl\:font-size-xl {
     font-size: var(--font-size-xl);
+  }
+  .xl\:font-weight-100, .xl\:font-weight-thin {
+    font-weight: 100;
   }
   .xl\:font-weight-200, .xl\:font-weight-extra-light {
     font-weight: 200;
@@ -360,22 +369,22 @@ h6,
 }
 @media (max-width: 64rem) {
   .lg\:heading-01 {
-    font-size: var(--heading-01);
+    font-size: var(--heading-1);
   }
   .lg\:heading-02 {
-    font-size: var(--heading-02);
+    font-size: var(--heading-2);
   }
   .lg\:heading-03 {
-    font-size: var(--heading-03);
+    font-size: var(--heading-3);
   }
   .lg\:heading-04 {
-    font-size: var(--heading-04);
+    font-size: var(--heading-4);
   }
   .lg\:heading-05 {
-    font-size: var(--heading-05);
+    font-size: var(--heading-5);
   }
   .lg\:heading-06 {
-    font-size: var(--heading-06);
+    font-size: var(--heading-6);
   }
   .lg\:font-size-xs {
     font-size: var(--font-size-xs);
@@ -391,6 +400,9 @@ h6,
   }
   .lg\:font-size-xl {
     font-size: var(--font-size-xl);
+  }
+  .lg\:font-weight-100, .lg\:font-weight-thin {
+    font-weight: 100;
   }
   .lg\:font-weight-200, .lg\:font-weight-extra-light {
     font-weight: 200;
@@ -452,22 +464,22 @@ h6,
 }
 @media (max-width: 48rem) {
   .md\:heading-01 {
-    font-size: var(--heading-01);
+    font-size: var(--heading-1);
   }
   .md\:heading-02 {
-    font-size: var(--heading-02);
+    font-size: var(--heading-2);
   }
   .md\:heading-03 {
-    font-size: var(--heading-03);
+    font-size: var(--heading-3);
   }
   .md\:heading-04 {
-    font-size: var(--heading-04);
+    font-size: var(--heading-4);
   }
   .md\:heading-05 {
-    font-size: var(--heading-05);
+    font-size: var(--heading-5);
   }
   .md\:heading-06 {
-    font-size: var(--heading-06);
+    font-size: var(--heading-6);
   }
   .md\:font-size-xs {
     font-size: var(--font-size-xs);
@@ -483,6 +495,9 @@ h6,
   }
   .md\:font-size-xl {
     font-size: var(--font-size-xl);
+  }
+  .md\:font-weight-100, .md\:font-weight-thin {
+    font-weight: 100;
   }
   .md\:font-weight-200, .md\:font-weight-extra-light {
     font-weight: 200;
@@ -544,22 +559,22 @@ h6,
 }
 @media (max-width: 40rem) {
   .sm\:heading-01 {
-    font-size: var(--heading-01);
+    font-size: var(--heading-1);
   }
   .sm\:heading-02 {
-    font-size: var(--heading-02);
+    font-size: var(--heading-2);
   }
   .sm\:heading-03 {
-    font-size: var(--heading-03);
+    font-size: var(--heading-3);
   }
   .sm\:heading-04 {
-    font-size: var(--heading-04);
+    font-size: var(--heading-4);
   }
   .sm\:heading-05 {
-    font-size: var(--heading-05);
+    font-size: var(--heading-5);
   }
   .sm\:heading-06 {
-    font-size: var(--heading-06);
+    font-size: var(--heading-6);
   }
   .sm\:font-size-xs {
     font-size: var(--font-size-xs);
@@ -575,6 +590,9 @@ h6,
   }
   .sm\:font-size-xl {
     font-size: var(--font-size-xl);
+  }
+  .sm\:font-weight-100, .sm\:font-weight-thin {
+    font-weight: 100;
   }
   .sm\:font-weight-200, .sm\:font-weight-extra-light {
     font-weight: 200;

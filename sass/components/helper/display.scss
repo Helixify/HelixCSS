@@ -1,0 +1,5 @@
+.ds {
+	@include display;
+	@include display-flex;
+	@include display-grid;
+}

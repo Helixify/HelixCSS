@@ -1,0 +1,12 @@
+.top {
+	@include direction(top);
+}
+.bottom {
+	@include direction(bottom);
+}
+.left {
+	@include direction(left);
+}
+.right {
+	@include direction(right);
+}

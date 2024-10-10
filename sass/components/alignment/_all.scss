@@ -1,0 +1,12 @@
+// External partial
+@import '../../mixins/responsive';
+
+// Internal partial
+@import 'mixin';
+
+// Content
+@import 'justify';
+@import 'align';
+
+// Responsive
+@import 'responsive';

@@ -19,40 +19,40 @@
   grid-auto-flow: dense;
 }
 
-.grid-tpl-col-01 {
+.grid-tpl-col-1 {
   grid-template-columns: repeat(1, 1fr);
 }
-.grid-tpl-col-02 {
+.grid-tpl-col-2 {
   grid-template-columns: repeat(2, 1fr);
 }
-.grid-tpl-col-03 {
+.grid-tpl-col-3 {
   grid-template-columns: repeat(3, 1fr);
 }
-.grid-tpl-col-04 {
+.grid-tpl-col-4 {
   grid-template-columns: repeat(4, 1fr);
 }
-.grid-tpl-col-05 {
+.grid-tpl-col-5 {
   grid-template-columns: repeat(5, 1fr);
 }
-.grid-tpl-col-06 {
+.grid-tpl-col-6 {
   grid-template-columns: repeat(6, 1fr);
 }
-.grid-tpl-row-01 {
+.grid-tpl-row-1 {
   grid-template-rows: repeat(1, 1fr);
 }
-.grid-tpl-row-02 {
+.grid-tpl-row-2 {
   grid-template-rows: repeat(2, 1fr);
 }
-.grid-tpl-row-03 {
+.grid-tpl-row-3 {
   grid-template-rows: repeat(3, 1fr);
 }
-.grid-tpl-row-04 {
+.grid-tpl-row-4 {
   grid-template-rows: repeat(4, 1fr);
 }
-.grid-tpl-row-05 {
+.grid-tpl-row-5 {
   grid-template-rows: repeat(5, 1fr);
 }
-.grid-tpl-row-06 {
+.grid-tpl-row-6 {
   grid-template-rows: repeat(6, 1fr);
 }
 
@@ -72,40 +72,40 @@
   .\32 xl\:grid-flow-dense {
     grid-auto-flow: dense;
   }
-  .\32 xl\:grid-tpl-col-01 {
+  .\32 xl\:grid-tpl-col-1 {
     grid-template-columns: repeat(1, 1fr);
   }
-  .\32 xl\:grid-tpl-col-02 {
+  .\32 xl\:grid-tpl-col-2 {
     grid-template-columns: repeat(2, 1fr);
   }
-  .\32 xl\:grid-tpl-col-03 {
+  .\32 xl\:grid-tpl-col-3 {
     grid-template-columns: repeat(3, 1fr);
   }
-  .\32 xl\:grid-tpl-col-04 {
+  .\32 xl\:grid-tpl-col-4 {
     grid-template-columns: repeat(4, 1fr);
   }
-  .\32 xl\:grid-tpl-col-05 {
+  .\32 xl\:grid-tpl-col-5 {
     grid-template-columns: repeat(5, 1fr);
   }
-  .\32 xl\:grid-tpl-col-06 {
+  .\32 xl\:grid-tpl-col-6 {
     grid-template-columns: repeat(6, 1fr);
   }
-  .\32 xl\:grid-tpl-row-01 {
+  .\32 xl\:grid-tpl-row-1 {
     grid-template-rows: repeat(1, 1fr);
   }
-  .\32 xl\:grid-tpl-row-02 {
+  .\32 xl\:grid-tpl-row-2 {
     grid-template-rows: repeat(2, 1fr);
   }
-  .\32 xl\:grid-tpl-row-03 {
+  .\32 xl\:grid-tpl-row-3 {
     grid-template-rows: repeat(3, 1fr);
   }
-  .\32 xl\:grid-tpl-row-04 {
+  .\32 xl\:grid-tpl-row-4 {
     grid-template-rows: repeat(4, 1fr);
   }
-  .\32 xl\:grid-tpl-row-05 {
+  .\32 xl\:grid-tpl-row-5 {
     grid-template-rows: repeat(5, 1fr);
   }
-  .\32 xl\:grid-tpl-row-06 {
+  .\32 xl\:grid-tpl-row-6 {
     grid-template-rows: repeat(6, 1fr);
   }
 }
@@ -125,40 +125,40 @@
   .xl\:grid-flow-dense {
     grid-auto-flow: dense;
   }
-  .xl\:grid-tpl-col-01 {
+  .xl\:grid-tpl-col-1 {
     grid-template-columns: repeat(1, 1fr);
   }
-  .xl\:grid-tpl-col-02 {
+  .xl\:grid-tpl-col-2 {
     grid-template-columns: repeat(2, 1fr);
   }
-  .xl\:grid-tpl-col-03 {
+  .xl\:grid-tpl-col-3 {
     grid-template-columns: repeat(3, 1fr);
   }
-  .xl\:grid-tpl-col-04 {
+  .xl\:grid-tpl-col-4 {
     grid-template-columns: repeat(4, 1fr);
   }
-  .xl\:grid-tpl-col-05 {
+  .xl\:grid-tpl-col-5 {
     grid-template-columns: repeat(5, 1fr);
   }
-  .xl\:grid-tpl-col-06 {
+  .xl\:grid-tpl-col-6 {
     grid-template-columns: repeat(6, 1fr);
   }
-  .xl\:grid-tpl-row-01 {
+  .xl\:grid-tpl-row-1 {
     grid-template-rows: repeat(1, 1fr);
   }
-  .xl\:grid-tpl-row-02 {
+  .xl\:grid-tpl-row-2 {
     grid-template-rows: repeat(2, 1fr);
   }
-  .xl\:grid-tpl-row-03 {
+  .xl\:grid-tpl-row-3 {
     grid-template-rows: repeat(3, 1fr);
   }
-  .xl\:grid-tpl-row-04 {
+  .xl\:grid-tpl-row-4 {
     grid-template-rows: repeat(4, 1fr);
   }
-  .xl\:grid-tpl-row-05 {
+  .xl\:grid-tpl-row-5 {
     grid-template-rows: repeat(5, 1fr);
   }
-  .xl\:grid-tpl-row-06 {
+  .xl\:grid-tpl-row-6 {
     grid-template-rows: repeat(6, 1fr);
   }
 }
@@ -178,40 +178,40 @@
   .lg\:grid-flow-dense {
     grid-auto-flow: dense;
   }
-  .lg\:grid-tpl-col-01 {
+  .lg\:grid-tpl-col-1 {
     grid-template-columns: repeat(1, 1fr);
   }
-  .lg\:grid-tpl-col-02 {
+  .lg\:grid-tpl-col-2 {
     grid-template-columns: repeat(2, 1fr);
   }
-  .lg\:grid-tpl-col-03 {
+  .lg\:grid-tpl-col-3 {
     grid-template-columns: repeat(3, 1fr);
   }
-  .lg\:grid-tpl-col-04 {
+  .lg\:grid-tpl-col-4 {
     grid-template-columns: repeat(4, 1fr);
   }
-  .lg\:grid-tpl-col-05 {
+  .lg\:grid-tpl-col-5 {
     grid-template-columns: repeat(5, 1fr);
   }
-  .lg\:grid-tpl-col-06 {
+  .lg\:grid-tpl-col-6 {
     grid-template-columns: repeat(6, 1fr);
   }
-  .lg\:grid-tpl-row-01 {
+  .lg\:grid-tpl-row-1 {
     grid-template-rows: repeat(1, 1fr);
   }
-  .lg\:grid-tpl-row-02 {
+  .lg\:grid-tpl-row-2 {
     grid-template-rows: repeat(2, 1fr);
   }
-  .lg\:grid-tpl-row-03 {
+  .lg\:grid-tpl-row-3 {
     grid-template-rows: repeat(3, 1fr);
   }
-  .lg\:grid-tpl-row-04 {
+  .lg\:grid-tpl-row-4 {
     grid-template-rows: repeat(4, 1fr);
   }
-  .lg\:grid-tpl-row-05 {
+  .lg\:grid-tpl-row-5 {
     grid-template-rows: repeat(5, 1fr);
   }
-  .lg\:grid-tpl-row-06 {
+  .lg\:grid-tpl-row-6 {
     grid-template-rows: repeat(6, 1fr);
   }
 }
@@ -231,40 +231,40 @@
   .md\:grid-flow-dense {
     grid-auto-flow: dense;
   }
-  .md\:grid-tpl-col-01 {
+  .md\:grid-tpl-col-1 {
     grid-template-columns: repeat(1, 1fr);
   }
-  .md\:grid-tpl-col-02 {
+  .md\:grid-tpl-col-2 {
     grid-template-columns: repeat(2, 1fr);
   }
-  .md\:grid-tpl-col-03 {
+  .md\:grid-tpl-col-3 {
     grid-template-columns: repeat(3, 1fr);
   }
-  .md\:grid-tpl-col-04 {
+  .md\:grid-tpl-col-4 {
     grid-template-columns: repeat(4, 1fr);
   }
-  .md\:grid-tpl-col-05 {
+  .md\:grid-tpl-col-5 {
     grid-template-columns: repeat(5, 1fr);
   }
-  .md\:grid-tpl-col-06 {
+  .md\:grid-tpl-col-6 {
     grid-template-columns: repeat(6, 1fr);
   }
-  .md\:grid-tpl-row-01 {
+  .md\:grid-tpl-row-1 {
     grid-template-rows: repeat(1, 1fr);
   }
-  .md\:grid-tpl-row-02 {
+  .md\:grid-tpl-row-2 {
     grid-template-rows: repeat(2, 1fr);
   }
-  .md\:grid-tpl-row-03 {
+  .md\:grid-tpl-row-3 {
     grid-template-rows: repeat(3, 1fr);
   }
-  .md\:grid-tpl-row-04 {
+  .md\:grid-tpl-row-4 {
     grid-template-rows: repeat(4, 1fr);
   }
-  .md\:grid-tpl-row-05 {
+  .md\:grid-tpl-row-5 {
     grid-template-rows: repeat(5, 1fr);
   }
-  .md\:grid-tpl-row-06 {
+  .md\:grid-tpl-row-6 {
     grid-template-rows: repeat(6, 1fr);
   }
 }
@@ -284,40 +284,40 @@
   .sm\:grid-flow-dense {
     grid-auto-flow: dense;
   }
-  .sm\:grid-tpl-col-01 {
+  .sm\:grid-tpl-col-1 {
     grid-template-columns: repeat(1, 1fr);
   }
-  .sm\:grid-tpl-col-02 {
+  .sm\:grid-tpl-col-2 {
     grid-template-columns: repeat(2, 1fr);
   }
-  .sm\:grid-tpl-col-03 {
+  .sm\:grid-tpl-col-3 {
     grid-template-columns: repeat(3, 1fr);
   }
-  .sm\:grid-tpl-col-04 {
+  .sm\:grid-tpl-col-4 {
     grid-template-columns: repeat(4, 1fr);
   }
-  .sm\:grid-tpl-col-05 {
+  .sm\:grid-tpl-col-5 {
     grid-template-columns: repeat(5, 1fr);
   }
-  .sm\:grid-tpl-col-06 {
+  .sm\:grid-tpl-col-6 {
     grid-template-columns: repeat(6, 1fr);
   }
-  .sm\:grid-tpl-row-01 {
+  .sm\:grid-tpl-row-1 {
     grid-template-rows: repeat(1, 1fr);
   }
-  .sm\:grid-tpl-row-02 {
+  .sm\:grid-tpl-row-2 {
     grid-template-rows: repeat(2, 1fr);
   }
-  .sm\:grid-tpl-row-03 {
+  .sm\:grid-tpl-row-3 {
     grid-template-rows: repeat(3, 1fr);
   }
-  .sm\:grid-tpl-row-04 {
+  .sm\:grid-tpl-row-4 {
     grid-template-rows: repeat(4, 1fr);
   }
-  .sm\:grid-tpl-row-05 {
+  .sm\:grid-tpl-row-5 {
     grid-template-rows: repeat(5, 1fr);
   }
-  .sm\:grid-tpl-row-06 {
+  .sm\:grid-tpl-row-6 {
     grid-template-rows: repeat(6, 1fr);
   }
 }

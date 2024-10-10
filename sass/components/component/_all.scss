@@ -1,0 +1,10 @@
+// External partial
+// @import '../variable/';
+// @import '../mixin/';
+
+// Internal partial
+@import 'variable';
+@import 'mixin';
+
+// Content
+@import 'component';

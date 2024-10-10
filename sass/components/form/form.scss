@@ -1,0 +1,47 @@
+:where(button, input, textarea, select, a.button),
+:where(input[type='file'])::file-selector-button {
+	padding: {
+		block: 0.5rem;
+		inline: 0.5rem;
+	}
+	border: {
+		style: solid;
+		width: var(--form-border-width);
+		color: hsl(var(--form-border-color));
+		radius: 0.25rem;
+	}
+	outline: {
+		color: transparent;
+		width: var(--form-border-width);
+		style: solid;
+		offset: -0.0625rem;
+	}
+	line-height: 1;
+}
+
+:where(input[type='checkbox'], input[type='radio']) {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 1rem;
+	height: 1rem;
+	border: {
+		style: solid;
+		width: 0.0625rem;
+		color: hsl(var(--form-border-color));
+	}
+
+	&:focus {
+		border-color: hsl(var(--form-highlight));
+		outline: {
+			width: var(--form-outline-width);
+			color: hsla(var(--form-highlight), 0.32);
+			offset: 0px;
+		}
+	}
+
+	&:checked {
+		border: {
+			color: hsl(var(--form-highlight));
+		}
+	}
+}

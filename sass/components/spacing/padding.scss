@@ -1,0 +1,9 @@
+.p {
+	@include space-primitive(padding);
+	@include space-simple(t, padding-top);
+	@include space-simple(r, padding-right);
+	@include space-simple(b, padding-bottom);
+	@include space-simple(l, padding-left);
+	@include space-complex(block, padding-block);
+	@include space-complex(inline, padding-inline);
+}

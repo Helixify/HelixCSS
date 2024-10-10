@@ -1,0 +1,31 @@
+// Flow direction
+@mixin grid-flow {
+	&-row {
+		grid-auto-flow: row;
+	}
+	&-col {
+		grid-auto-flow: column;
+	}
+	&-dense {
+		grid-auto-flow: dense;
+	}
+}
+
+// Grid template property
+@mixin template($property) {
+	@for $i from 1 through 6 {
+		&-#{$i} {
+			grid-template-#{$property}: repeat($i, 1fr);
+		}
+	}
+}
+
+// Grid template variation
+@mixin grid-tpl {
+	&-col {
+		@include template(columns);
+	}
+	&-row {
+		@include template(rows);
+	}
+}

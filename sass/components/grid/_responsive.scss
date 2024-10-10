@@ -1,0 +1,61 @@
+@import '../helper/mixin';
+
+@include res-query-2xl() {
+	@include res-class-2xl(ds) {
+		@include display-grid;
+	}
+	@include res-class-2xl(grid-flow) {
+		@include grid-flow;
+	}
+	@include res-class-2xl(grid-tpl) {
+		@include grid-tpl;
+	}
+}
+
+@include res-query-xl() {
+	@include res-class-xl(ds) {
+		@include display-grid;
+	}
+	@include res-class-xl(grid-flow) {
+		@include grid-flow;
+	}
+	@include res-class-xl(grid-tpl) {
+		@include grid-tpl;
+	}
+}
+
+@include res-query-lg() {
+	@include res-class-lg(ds) {
+		@include display-grid;
+	}
+	@include res-class-lg(grid-flow) {
+		@include grid-flow;
+	}
+	@include res-class-lg(grid-tpl) {
+		@include grid-tpl;
+	}
+}
+
+@include res-query-md() {
+	@include res-class-md(ds) {
+		@include display-grid;
+	}
+	@include res-class-md(grid-flow) {
+		@include grid-flow;
+	}
+	@include res-class-md(grid-tpl) {
+		@include grid-tpl;
+	}
+}
+
+@include res-query-sm() {
+	@include res-class-sm(ds) {
+		@include display-grid;
+	}
+	@include res-class-sm(grid-flow) {
+		@include grid-flow;
+	}
+	@include res-class-sm(grid-tpl) {
+		@include grid-tpl;
+	}
+}

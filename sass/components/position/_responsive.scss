@@ -1,0 +1,104 @@
+@include res-query-2xl() {
+	@include res-class-2xl(ps) {
+		@include position;
+	}
+	@include res-class-2xl(top) {
+		@include direction(top);
+	}
+	@include res-class-2xl(bottom) {
+		@include direction(bottom);
+	}
+	@include res-class-2xl(left) {
+		@include direction(left);
+	}
+	@include res-class-2xl(right) {
+		@include direction(right);
+	}
+	@include res-class-2xl(inset) {
+		@include inset;
+	}
+}
+
+@include res-query-xl() {
+	@include res-class-xl(ps) {
+		@include position;
+	}
+	@include res-class-xl(top) {
+		@include direction(top);
+	}
+	@include res-class-xl(bottom) {
+		@include direction(bottom);
+	}
+	@include res-class-xl(left) {
+		@include direction(left);
+	}
+	@include res-class-xl(right) {
+		@include direction(right);
+	}
+	@include res-class-xl(inset) {
+		@include inset;
+	}
+}
+
+@include res-query-lg() {
+	@include res-class-lg(ps) {
+		@include position;
+	}
+	@include res-class-lg(top) {
+		@include direction(top);
+	}
+	@include res-class-lg(bottom) {
+		@include direction(bottom);
+	}
+	@include res-class-lg(left) {
+		@include direction(left);
+	}
+	@include res-class-lg(right) {
+		@include direction(right);
+	}
+	@include res-class-lg(inset) {
+		@include inset;
+	}
+}
+
+@include res-query-md() {
+	@include res-class-md(ps) {
+		@include position;
+	}
+	@include res-class-md(top) {
+		@include direction(top);
+	}
+	@include res-class-md(bottom) {
+		@include direction(bottom);
+	}
+	@include res-class-md(left) {
+		@include direction(left);
+	}
+	@include res-class-md(right) {
+		@include direction(right);
+	}
+	@include res-class-md(inset) {
+		@include inset;
+	}
+}
+
+@include res-query-sm() {
+	@include res-class-sm(ps) {
+		@include position;
+	}
+	@include res-class-sm(top) {
+		@include direction(top);
+	}
+	@include res-class-sm(bottom) {
+		@include direction(bottom);
+	}
+	@include res-class-sm(left) {
+		@include direction(left);
+	}
+	@include res-class-sm(right) {
+		@include direction(right);
+	}
+	@include res-class-sm(inset) {
+		@include inset;
+	}
+}

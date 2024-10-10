@@ -1,0 +1,33 @@
+@mixin gap() {
+	&-none,
+	&less {
+		gap: var(--gapless);
+	}
+	&-3xs {
+		gap: var(--gap-3xs);
+	}
+	&-2xs {
+		gap: var(--gap-2xs);
+	}
+	&-xs {
+		gap: var(--gap-xs);
+	}
+	&-sm {
+		gap: var(--gap-sm);
+	}
+	&-md {
+		gap: var(--gap-md);
+	}
+	&-lg {
+		gap: var(--gap-lg);
+	}
+	&-xl {
+		gap: var(--gap-xl);
+	}
+	&-2xl {
+		gap: var(--gap-2xl);
+	}
+	&-3xl {
+		gap: var(--gap-3xl);
+	}
+}

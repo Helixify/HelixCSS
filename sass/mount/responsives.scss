@@ -1,0 +1,663 @@
+@import '../components/typography/mixin';
+@import '../components/flexbox/mixin';
+@import '../components/grid/mixin';
+@import '../components/alignment/mixin';
+@import '../components/gap/mixin';
+@import '../components/position/mixin';
+@import '../components/border/mixin';
+@import '../components/helper/mixin';
+
+@include res-query-2xl() {
+	// Typography
+	@include res-class-2xl(heading-) {
+		@include heading;
+	}
+
+	@include res-class-2xl(font) {
+		@include font-size;
+		@include font-weight;
+		@include font-style;
+	}
+
+	@include res-class-2xl(text) {
+		@include text-align;
+		@include text-decoration;
+	}
+
+	// Helper
+	// Aspect ratio
+	@include res-class-2xl(aspect) {
+		@include aspect-ratio;
+	}
+
+	// Display
+	@include res-class-2xl(ds) {
+		@include display;
+		@include display-flex;
+		@include display-grid;
+	}
+
+	// Object fit
+	@include res-class-2xl(object-fit) {
+		@include object-fit;
+	}
+
+	// Overflow
+	@include res-class-2xl(overflow) {
+		@include overflow;
+	}
+
+	// Size
+	@include res-class-2xl(width) {
+		@include size-width;
+	}
+	@include res-class-2xl(height) {
+		@include size-height;
+	}
+
+	// White Space
+	@include res-class-2xl(white-space) {
+		@include white-space;
+	}
+
+	// Flexbox
+	@include res-class-2xl(flow) {
+		@include flex-flow;
+	}
+
+	// Grid
+	@include res-class-2xl(grid-flow) {
+		@include grid-flow;
+	}
+	@include res-class-2xl(grid-tpl) {
+		@include grid-tpl;
+	}
+
+	// Alignment
+	@include res-class-2xl(justify) {
+		@include positioning(justify-content);
+		@include positioning-justify;
+	}
+
+	@include res-class-2xl(align) {
+		@include positioning(align-items);
+		@include positioning-align;
+	}
+
+	// Gap
+	@include res-class-2xl(gap) {
+		@include gap;
+	}
+
+	// Position
+	@include res-class-2xl(ps) {
+		@include position;
+	}
+	@include res-class-2xl(top) {
+		@include direction(top);
+	}
+	@include res-class-2xl(bottom) {
+		@include direction(bottom);
+	}
+	@include res-class-2xl(left) {
+		@include direction(left);
+	}
+	@include res-class-2xl(right) {
+		@include direction(right);
+	}
+	@include res-class-2xl(inset) {
+		@include inset;
+	}
+
+	// Border
+	@include res-class-2xl(radius) {
+		@include radius;
+	}
+	@include res-class-2xl(border-style) {
+		@include border-style;
+	}
+
+	// Spacing
+	@include res-class-2xl(p) {
+		@include space-primitive(padding);
+		@include space-simple(t, padding-top);
+		@include space-simple(r, padding-right);
+		@include space-simple(b, padding-bottom);
+		@include space-simple(l, padding-left);
+		@include space-complex(block, padding-block);
+		@include space-complex(inline, padding-inline);
+	}
+	@include res-class-2xl(m) {
+		@include space-primitive(margin);
+		@include space-simple(t, margin-top);
+		@include space-simple(r, margin-right);
+		@include space-simple(b, margin-bottom);
+		@include space-simple(l, margin-left);
+		@include space-complex(block, margin-block);
+		@include space-complex(inline, margin-inline);
+	}
+}
+
+@include res-query-xl() {
+	// Typography
+	@include res-class-xl(heading-) {
+		@include heading;
+	}
+
+	@include res-class-xl(font) {
+		@include font-size;
+		@include font-weight;
+		@include font-style;
+	}
+
+	@include res-class-xl(text) {
+		@include text-align;
+		@include text-decoration;
+	}
+
+	// Helper
+	// Aspect ratio
+	@include res-class-xl(aspect) {
+		@include aspect-ratio;
+	}
+
+	// Display
+	@include res-class-xl(ds) {
+		@include display;
+		@include display-flex;
+		@include display-grid;
+	}
+
+	// Object fit
+	@include res-class-xl(object-fit) {
+		@include object-fit;
+	}
+
+	// Overflow
+	@include res-class-xl(overflow) {
+		@include overflow;
+	}
+
+	// Size
+	@include res-class-xl(width) {
+		@include size-width;
+	}
+	@include res-class-xl(height) {
+		@include size-height;
+	}
+
+	// White Space
+	@include res-class-xl(white-space) {
+		@include white-space;
+	}
+
+	// Flexbox
+	@include res-class-xl(flow) {
+		@include flex-flow;
+	}
+
+	// Grid
+	@include res-class-xl(grid-flow) {
+		@include grid-flow;
+	}
+	@include res-class-xl(grid-tpl) {
+		@include grid-tpl;
+	}
+
+	// Alignment
+	@include res-class-xl(justify) {
+		@include positioning(justify-content);
+		@include positioning-justify;
+	}
+
+	@include res-class-xl(align) {
+		@include positioning(align-items);
+		@include positioning-align;
+	}
+
+	// Gap
+	@include res-class-xl(gap) {
+		@include gap;
+	}
+
+	// Position
+	@include res-class-xl(ps) {
+		@include position;
+	}
+	@include res-class-xl(top) {
+		@include direction(top);
+	}
+	@include res-class-xl(bottom) {
+		@include direction(bottom);
+	}
+	@include res-class-xl(left) {
+		@include direction(left);
+	}
+	@include res-class-xl(right) {
+		@include direction(right);
+	}
+	@include res-class-xl(inset) {
+		@include inset;
+	}
+
+	// Border
+	@include res-class-xl(radius) {
+		@include radius;
+	}
+	@include res-class-xl(border-style) {
+		@include border-style;
+	}
+
+	// Spacing
+	@include res-class-xl(p) {
+		@include space-primitive(padding);
+		@include space-simple(t, padding-top);
+		@include space-simple(r, padding-right);
+		@include space-simple(b, padding-bottom);
+		@include space-simple(l, padding-left);
+		@include space-complex(block, padding-block);
+		@include space-complex(inline, padding-inline);
+	}
+	@include res-class-xl(m) {
+		@include space-primitive(margin);
+		@include space-simple(t, margin-top);
+		@include space-simple(r, margin-right);
+		@include space-simple(b, margin-bottom);
+		@include space-simple(l, margin-left);
+		@include space-complex(block, margin-block);
+		@include space-complex(inline, margin-inline);
+	}
+}
+
+@include res-query-lg() {
+	// Typography
+	@include res-class-lg(heading-) {
+		@include heading;
+	}
+
+	@include res-class-lg(font) {
+		@include font-size;
+		@include font-weight;
+		@include font-style;
+	}
+
+	@include res-class-lg(text) {
+		@include text-align;
+		@include text-decoration;
+	}
+
+	// Helper
+	// Aspect ratio
+	@include res-class-lg(aspect) {
+		@include aspect-ratio;
+	}
+
+	// Display
+	@include res-class-lg(ds) {
+		@include display;
+		@include display-flex;
+		@include display-grid;
+	}
+
+	// Object fit
+	@include res-class-lg(object-fit) {
+		@include object-fit;
+	}
+
+	// Overflow
+	@include res-class-lg(overflow) {
+		@include overflow;
+	}
+
+	// Size
+	@include res-class-lg(width) {
+		@include size-width;
+	}
+	@include res-class-lg(height) {
+		@include size-height;
+	}
+
+	// White Space
+	@include res-class-lg(white-space) {
+		@include white-space;
+	}
+
+	// Flexbox
+	@include res-class-lg(flow) {
+		@include flex-flow;
+	}
+
+	// Grid
+	@include res-class-lg(grid-flow) {
+		@include grid-flow;
+	}
+	@include res-class-lg(grid-tpl) {
+		@include grid-tpl;
+	}
+
+	// Alignment
+	@include res-class-lg(justify) {
+		@include positioning(justify-content);
+		@include positioning-justify;
+	}
+
+	@include res-class-lg(align) {
+		@include positioning(align-items);
+		@include positioning-align;
+	}
+
+	// Gap
+	@include res-class-lg(gap) {
+		@include gap;
+	}
+
+	// Position
+	@include res-class-lg(ps) {
+		@include position;
+	}
+	@include res-class-lg(top) {
+		@include direction(top);
+	}
+	@include res-class-lg(bottom) {
+		@include direction(bottom);
+	}
+	@include res-class-lg(left) {
+		@include direction(left);
+	}
+	@include res-class-lg(right) {
+		@include direction(right);
+	}
+	@include res-class-lg(inset) {
+		@include inset;
+	}
+
+	// Border
+	@include res-class-lg(radius) {
+		@include radius;
+	}
+	@include res-class-lg(border-style) {
+		@include border-style;
+	}
+
+	// Spacing
+	@include res-class-lg(p) {
+		@include space-primitive(padding);
+		@include space-simple(t, padding-top);
+		@include space-simple(r, padding-right);
+		@include space-simple(b, padding-bottom);
+		@include space-simple(l, padding-left);
+		@include space-complex(block, padding-block);
+		@include space-complex(inline, padding-inline);
+	}
+	@include res-class-lg(m) {
+		@include space-primitive(margin);
+		@include space-simple(t, margin-top);
+		@include space-simple(r, margin-right);
+		@include space-simple(b, margin-bottom);
+		@include space-simple(l, margin-left);
+		@include space-complex(block, margin-block);
+		@include space-complex(inline, margin-inline);
+	}
+}
+
+@include res-query-md() {
+	// Typography
+	@include res-class-md(heading-) {
+		@include heading;
+	}
+
+	@include res-class-md(font) {
+		@include font-size;
+		@include font-weight;
+		@include font-style;
+	}
+
+	@include res-class-md(text) {
+		@include text-align;
+		@include text-decoration;
+	}
+
+	// Helper
+	// Aspect ratio
+	@include res-class-md(aspect) {
+		@include aspect-ratio;
+	}
+
+	// Display
+	@include res-class-md(ds) {
+		@include display;
+		@include display-flex;
+		@include display-grid;
+	}
+
+	// Object fit
+	@include res-class-md(object-fit) {
+		@include object-fit;
+	}
+
+	// Overflow
+	@include res-class-md(overflow) {
+		@include overflow;
+	}
+
+	// Size
+	@include res-class-md(width) {
+		@include size-width;
+	}
+	@include res-class-md(height) {
+		@include size-height;
+	}
+
+	// White Space
+	@include res-class-md(white-space) {
+		@include white-space;
+	}
+
+	// Flexbox
+	@include res-class-md(flow) {
+		@include flex-flow;
+	}
+
+	// Grid
+	@include res-class-md(grid-flow) {
+		@include grid-flow;
+	}
+	@include res-class-md(grid-tpl) {
+		@include grid-tpl;
+	}
+
+	// Alignment
+	@include res-class-md(justify) {
+		@include positioning(justify-content);
+		@include positioning-justify;
+	}
+
+	@include res-class-md(align) {
+		@include positioning(align-items);
+		@include positioning-align;
+	}
+
+	// Gap
+	@include res-class-md(gap) {
+		@include gap;
+	}
+
+	// Position
+	@include res-class-md(ps) {
+		@include position;
+	}
+	@include res-class-md(top) {
+		@include direction(top);
+	}
+	@include res-class-md(bottom) {
+		@include direction(bottom);
+	}
+	@include res-class-md(left) {
+		@include direction(left);
+	}
+	@include res-class-md(right) {
+		@include direction(right);
+	}
+	@include res-class-md(inset) {
+		@include inset;
+	}
+
+	// Border
+	@include res-class-md(radius) {
+		@include radius;
+	}
+	@include res-class-md(border-style) {
+		@include border-style;
+	}
+
+	// Spacing
+	@include res-class-md(p) {
+		@include space-primitive(padding);
+		@include space-simple(t, padding-top);
+		@include space-simple(r, padding-right);
+		@include space-simple(b, padding-bottom);
+		@include space-simple(l, padding-left);
+		@include space-complex(block, padding-block);
+		@include space-complex(inline, padding-inline);
+	}
+	@include res-class-md(m) {
+		@include space-primitive(margin);
+		@include space-simple(t, margin-top);
+		@include space-simple(r, margin-right);
+		@include space-simple(b, margin-bottom);
+		@include space-simple(l, margin-left);
+		@include space-complex(block, margin-block);
+		@include space-complex(inline, margin-inline);
+	}
+}
+
+@include res-query-sm() {
+	// Typography
+	@include res-class-sm(heading-) {
+		@include heading;
+	}
+
+	@include res-class-sm(font) {
+		@include font-size;
+		@include font-weight;
+		@include font-style;
+	}
+
+	@include res-class-sm(text) {
+		@include text-align;
+		@include text-decoration;
+	}
+
+	// Helper
+	// Aspect ratio
+	@include res-class-sm(aspect) {
+		@include aspect-ratio;
+	}
+
+	// Display
+	@include res-class-sm(ds) {
+		@include display;
+		@include display-flex;
+		@include display-grid;
+	}
+
+	// Object fit
+	@include res-class-sm(object-fit) {
+		@include object-fit;
+	}
+
+	// Overflow
+	@include res-class-sm(overflow) {
+		@include overflow;
+	}
+
+	// Size
+	@include res-class-sm(width) {
+		@include size-width;
+	}
+	@include res-class-sm(height) {
+		@include size-height;
+	}
+
+	// White Space
+	@include res-class-sm(white-space) {
+		@include white-space;
+	}
+
+	// Flexbox
+	@include res-class-sm(flow) {
+		@include flex-flow;
+	}
+
+	// Grid
+	@include res-class-sm(grid-flow) {
+		@include grid-flow;
+	}
+	@include res-class-sm(grid-tpl) {
+		@include grid-tpl;
+	}
+
+	// Alignment
+	@include res-class-sm(justify) {
+		@include positioning(justify-content);
+		@include positioning-justify;
+	}
+
+	@include res-class-sm(align) {
+		@include positioning(align-items);
+		@include positioning-align;
+	}
+
+	// Gap
+	@include res-class-sm(gap) {
+		@include gap;
+	}
+
+	// Position
+	@include res-class-sm(ps) {
+		@include position;
+	}
+	@include res-class-sm(top) {
+		@include direction(top);
+	}
+	@include res-class-sm(bottom) {
+		@include direction(bottom);
+	}
+	@include res-class-sm(left) {
+		@include direction(left);
+	}
+	@include res-class-sm(right) {
+		@include direction(right);
+	}
+	@include res-class-sm(inset) {
+		@include inset;
+	}
+
+	// Border
+	@include res-class-sm(radius) {
+		@include radius;
+	}
+	@include res-class-sm(border-style) {
+		@include border-style;
+	}
+
+	// Spacing
+	@include res-class-sm(p) {
+		@include space-primitive(padding);
+		@include space-simple(t, padding-top);
+		@include space-simple(r, padding-right);
+		@include space-simple(b, padding-bottom);
+		@include space-simple(l, padding-left);
+		@include space-complex(block, padding-block);
+		@include space-complex(inline, padding-inline);
+	}
+	@include res-class-sm(m) {
+		@include space-primitive(margin);
+		@include space-simple(t, margin-top);
+		@include space-simple(r, margin-right);
+		@include space-simple(b, margin-bottom);
+		@include space-simple(l, margin-left);
+		@include space-complex(block, margin-block);
+		@include space-complex(inline, margin-inline);
+	}
+}

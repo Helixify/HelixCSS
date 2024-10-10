@@ -1,0 +1,18 @@
+// External partial
+// @import '../variable/';
+@import '../../mixins/responsive';
+@import '../../variables/size';
+
+:root {
+	@include var-size;
+}
+
+// Internal partial
+@import 'mixin';
+
+// Content
+@import 'margin';
+@import 'padding';
+
+// Responsive
+@import 'responsive';

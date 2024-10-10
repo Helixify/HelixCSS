@@ -1,0 +1,60 @@
+@import '../alignment/mixin';
+
+// Duration
+@mixin duration-mount($duration) {
+	&-#{$duration} {
+		transition-duration: var(--duration-#{$duration});
+	}
+}
+
+@mixin trs-duration {
+	@include duration-mount(fast);
+	@include duration-mount(normal);
+	@include duration-mount(slow);
+}
+
+// Property
+@mixin trs-property {
+	&-none {
+		transition-property: none;
+	}
+
+	&-all {
+		transition-property: all;
+	}
+
+	&-colors {
+		transition-property: color, background-color,
+			border-color, text-decoration-color, fill, stroke;
+	}
+
+	&-opacity {
+		transition-property: opacity;
+	}
+
+	&-shadow {
+		transition-property: box-shadow;
+	}
+
+	&-transform {
+		transition-property: transform;
+	}
+}
+
+// Timing function
+@mixin timing-function-mount($timing) {
+	&-#{$timing} {
+		@if $timing == linear {
+			transition-timing-function: $timing;
+		} @else {
+			transition-timing-function: var(--ease-#{$timing});
+		}
+	}
+}
+
+@mixin trs-timing-function {
+	@include timing-function-mount(linear);
+	@include timing-function-mount(in);
+	@include timing-function-mount(in-out);
+	@include timing-function-mount(out);
+}

@@ -1,0 +1,15 @@
+@mixin property($property, $classes...) {
+	@each $class in $classes {
+		&-#{$class} {
+			#{$property}: $class;
+		}
+	}
+}
+
+@mixin property-name($name, $property, $values...) {
+	@each $value in $values {
+		&-#{$name}-#{$value} {
+			#{$property}: $value;
+		}
+	}
+}

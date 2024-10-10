@@ -1,0 +1,59 @@
+@include res-query-2xl() {
+	@include res-class-2xl(justify) {
+		@include positioning(justify-content);
+		@include positioning-justify;
+	}
+
+	@include res-class-2xl(align) {
+		@include positioning(align-items);
+		@include positioning-align;
+	}
+}
+
+@include res-query-xl() {
+	@include res-class-xl(justify) {
+		@include positioning(justify-content);
+		@include positioning-justify;
+	}
+
+	@include res-class-xl(align) {
+		@include positioning(align-items);
+		@include positioning-align;
+	}
+}
+
+@include res-query-lg() {
+	@include res-class-lg(justify) {
+		@include positioning(justify-content);
+		@include positioning-justify;
+	}
+
+	@include res-class-lg(align) {
+		@include positioning(align-items);
+		@include positioning-align;
+	}
+}
+
+@include res-query-md() {
+	@include res-class-md(justify) {
+		@include positioning(justify-content);
+		@include positioning-justify;
+	}
+
+	@include res-class-md(align) {
+		@include positioning(align-items);
+		@include positioning-align;
+	}
+}
+
+@include res-query-sm() {
+	@include res-class-sm(justify) {
+		@include positioning(justify-content);
+		@include positioning-justify;
+	}
+
+	@include res-class-sm(align) {
+		@include positioning(align-items);
+		@include positioning-align;
+	}
+}

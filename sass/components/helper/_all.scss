@@ -1,0 +1,21 @@
+// External partial
+@import '../../mixins/responsive';
+@import '../../mixins/property';
+
+// Internal partial
+@import 'mixin';
+
+// Content
+@import 'all-resets';
+@import 'aspect-ratio';
+@import 'cursor';
+@import 'display';
+@import 'list';
+@import 'object-fit';
+@import 'overflow';
+@import 'size';
+@import 'white-space';
+@import 'z-index';
+
+// Responsive
+@import 'responsive';

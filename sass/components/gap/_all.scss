@@ -1,0 +1,16 @@
+// External partial
+@import '../../mixins/responsive';
+
+// Internal partial
+@import 'mixin';
+@import 'variable';
+
+:root {
+	@include var-gap-export;
+}
+
+// Content
+@import 'gap';
+
+// Responsive
+@import 'responsive';
